@@ -36,10 +36,10 @@ sub run {
         my $is_in_domain_holder = sub { $_[0]->parent and $is_domain_holder->( $_[0]->parent ) };
 
         ok my $xd = XML::Dumb->new(
-            root_wrapper          => "preise",
-            children_as_keys_when => [ $is_root, $is_domain_holder ],
-            only_child_as_key     => { preis => $is_in_domain_holder },
-            atts_as_keys_when     => [$is_in_domain_holder],
+            root_wrapper      => "preise",
+            children_as_keys  => [ $is_root, $is_domain_holder ],
+            only_child_as_key => { preis => $is_in_domain_holder },
+            atts_as_keys      => [$is_in_domain_holder],
         );
         ok $xd->parsefile( "corpus/preise.xml" );
 
@@ -49,7 +49,7 @@ sub run {
     }
 
     {
-        ok my $xd = XML::Dumb->new( children_as_keys_when => [ sub { $_[0]->tag eq 'preise' } ] );
+        ok my $xd = XML::Dumb->new( children_as_keys => [ sub { $_[0]->tag eq 'preise' } ] );
         ok $xd->parse( "<preise meep='1' />" );
         like( exception { $xd->to_perl }, qr/tag with children as keys cannot have additional atts/ );
     }
