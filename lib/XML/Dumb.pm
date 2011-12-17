@@ -95,8 +95,7 @@ sub try_child_as_specified_key {
 sub try_children_as_keys_by_tag {
     my ( $self, $data, $opt, $elt ) = @_;
 
-    my $children_as_keys = grep { $_->( $elt ) } @{ $self->children_as_keys };
-    return if !$children_as_keys;
+    return if !grep { $_->( $elt ) } @{ $self->children_as_keys };
 
     die "tag with children as keys cannot have additional atts" if $elt->has_atts;
     $data->{ $_->tag } = $self->elt_to_perl( $_ ) for $elt->children;
@@ -125,8 +124,7 @@ sub handle_atts {
 sub try_atts_as_keys {
     my ( $self, $data, $opt, $elt ) = @_;
 
-    my $atts_as_keys = grep { $_->( $elt ) } @{ $self->atts_as_keys };
-    return if !$atts_as_keys;
+    return if !grep { $_->( $elt ) } @{ $self->atts_as_keys };
 
     my $atts = $elt->atts;
 
