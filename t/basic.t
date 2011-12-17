@@ -34,19 +34,27 @@ sub run {
         my $is_root          = sub { $_[0]->tag eq 'preise' };
         my $is_domain_holder = sub { $_[0]->tag eq 'domains' };
         my $is_in_domain_holder = sub { $_[0]->parent and $is_domain_holder->( $_[0]->parent ) };
-        my $is_payment_interval = sub {
+        my $is_in_housing = sub { $_[0]->parent and $_[0]->parent->tag eq 'housing' };
+        my $is_payment_interval_holder = sub {
                   $_[0]->tag eq 'zahlung'
               and $_[0]->parent
               and $_[0]->parent->parent
               and ($_[0]->parent->parent->tag eq 'root-server'
                 or $_[0]->parent->parent->tag eq 'managed-server' );
         };
+        my $is_named_payment_holder = sub {
+                  $_[0]->tag eq 'zahlung'
+              and $_[0]->parent
+              and $_[0]->parent->parent
+              and ($_[0]->parent->parent->tag eq 'vserver'
+                or $_[0]->parent->parent->tag eq 'webspace' );
+        };
 
         ok my $xd = XML::Dumb->new(
             root_wrapper            => "preise",
-            children_as_keys_by_tag => [ $is_root, $is_domain_holder ],
-            children_as_keys_by_att => { length => $is_payment_interval },
-            only_child_as_key       => { preis => $is_in_domain_holder },
+            children_as_keys_by_tag => [ $is_root, $is_domain_holder, $is_named_payment_holder, $is_in_housing ],
+            children_as_keys_by_att => { length => $is_payment_interval_holder },
+            only_child_as_key       => { preis  => $is_in_domain_holder },
             atts_as_keys            => [$is_in_domain_holder],
         );
         ok $xd->parsefile( "corpus/preise.xml" );

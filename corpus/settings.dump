@@ -90,93 +90,76 @@ $VAR1 = {
     'atts' => {},
     'children' => [
       {
-        'atts' => {},
-        'children' => [
-          {
-            'atts' => {},
-            'children' => [
-              '0.39'
-            ],
-            'tag' => 'trafficpreis'
-          },
-          {
-            'atts' => {},
-            'children' => [
-              '29,-'
-            ],
-            'tag' => 'preis'
-          },
-          {
-            'atts' => {},
-            'children' => [
-              '49,-'
-            ],
-            'tag' => 'epreis'
-          },
-          {
-            'atts' => {},
-            'children' => [
-              '5,-'
-            ],
-            'tag' => 'opt_strom'
-          },
-          {
-            'atts' => {},
-            'children' => [
-              '5,-'
-            ],
-            'tag' => 'opt_lan'
-          },
-          {
-            'atts' => {},
-            'children' => [
-              '19,-'
-            ],
-            'tag' => 'opt_ripe'
-          },
-          {
-            'atts' => {},
-            'children' => [
-              '56,-'
-            ],
-            'tag' => 'opt_2he'
-          },
-          {
-            'atts' => {},
-            'children' => [
-              '109,-'
-            ],
-            'tag' => 'opt_4he'
-          }
-        ],
-        'tag' => 'server'
+        'epreis' => {
+          'atts' => {},
+          'children' => [
+            '49,-'
+          ]
+        },
+        'opt_2he' => {
+          'atts' => {},
+          'children' => [
+            '56,-'
+          ]
+        },
+        'opt_4he' => {
+          'atts' => {},
+          'children' => [
+            '109,-'
+          ]
+        },
+        'opt_lan' => {
+          'atts' => {},
+          'children' => [
+            '5,-'
+          ]
+        },
+        'opt_ripe' => {
+          'atts' => {},
+          'children' => [
+            '19,-'
+          ]
+        },
+        'opt_strom' => {
+          'atts' => {},
+          'children' => [
+            '5,-'
+          ]
+        },
+        'preis' => {
+          'atts' => {},
+          'children' => [
+            '29,-'
+          ]
+        },
+        'tag' => 'server',
+        'trafficpreis' => {
+          'atts' => {},
+          'children' => [
+            '0.39'
+          ]
+        }
       },
       {
-        'atts' => {},
-        'children' => [
-          {
-            'atts' => {},
-            'children' => [
-              '0.39'
-            ],
-            'tag' => 'trafficpreis'
-          },
-          {
-            'atts' => {},
-            'children' => [
-              '899,-'
-            ],
-            'tag' => 'preis'
-          },
-          {
-            'atts' => {},
-            'children' => [
-              '899,-'
-            ],
-            'tag' => 'epreis'
-          }
-        ],
-        'tag' => 'rack'
+        'epreis' => {
+          'atts' => {},
+          'children' => [
+            '899,-'
+          ]
+        },
+        'preis' => {
+          'atts' => {},
+          'children' => [
+            '899,-'
+          ]
+        },
+        'tag' => 'rack',
+        'trafficpreis' => {
+          'atts' => {},
+          'children' => [
+            '0.39'
+          ]
+        }
       }
     ]
   },
@@ -1211,37 +1194,30 @@ $VAR1 = {
             'tag' => 'name'
           },
           {
-            'atts' => {},
-            'children' => [
-              {
-                'atts' => {},
-                'children' => [
-                  '14.99'
-                ],
-                'tag' => 'epreis'
-              },
-              {
-                'atts' => {},
-                'children' => [
-                  '14.99'
-                ],
-                'tag' => 'monatlich'
-              },
-              {
-                'atts' => {},
-                'children' => [
-                  '44.97'
-                ],
-                'tag' => 'quartal'
-              },
-              {
-                'atts' => {},
-                'children' => [
-                  '179.88'
-                ],
-                'tag' => 'jaehrlich'
-              }
-            ],
+            'epreis' => {
+              'atts' => {},
+              'children' => [
+                '14.99'
+              ]
+            },
+            'jaehrlich' => {
+              'atts' => {},
+              'children' => [
+                '179.88'
+              ]
+            },
+            'monatlich' => {
+              'atts' => {},
+              'children' => [
+                '14.99'
+              ]
+            },
+            'quartal' => {
+              'atts' => {},
+              'children' => [
+                '44.97'
+              ]
+            },
             'tag' => 'zahlung'
           }
         ],
@@ -1258,37 +1234,30 @@ $VAR1 = {
             'tag' => 'name'
           },
           {
-            'atts' => {},
-            'children' => [
-              {
-                'atts' => {},
-                'children' => [
-                  '14.99'
-                ],
-                'tag' => 'epreis'
-              },
-              {
-                'atts' => {},
-                'children' => [
-                  '19.99'
-                ],
-                'tag' => 'monatlich'
-              },
-              {
-                'atts' => {},
-                'children' => [
-                  '59.97'
-                ],
-                'tag' => 'quartal'
-              },
-              {
-                'atts' => {},
-                'children' => [
-                  '239.88'
-                ],
-                'tag' => 'jaehrlich'
-              }
-            ],
+            'epreis' => {
+              'atts' => {},
+              'children' => [
+                '14.99'
+              ]
+            },
+            'jaehrlich' => {
+              'atts' => {},
+              'children' => [
+                '239.88'
+              ]
+            },
+            'monatlich' => {
+              'atts' => {},
+              'children' => [
+                '19.99'
+              ]
+            },
+            'quartal' => {
+              'atts' => {},
+              'children' => [
+                '59.97'
+              ]
+            },
             'tag' => 'zahlung'
           }
         ],
@@ -1305,37 +1274,30 @@ $VAR1 = {
             'tag' => 'name'
           },
           {
-            'atts' => {},
-            'children' => [
-              {
-                'atts' => {},
-                'children' => [
-                  '14.99'
-                ],
-                'tag' => 'epreis'
-              },
-              {
-                'atts' => {},
-                'children' => [
-                  '24.99'
-                ],
-                'tag' => 'monatlich'
-              },
-              {
-                'atts' => {},
-                'children' => [
-                  '74.97'
-                ],
-                'tag' => 'quartal'
-              },
-              {
-                'atts' => {},
-                'children' => [
-                  '299.88'
-                ],
-                'tag' => 'jaehrlich'
-              }
-            ],
+            'epreis' => {
+              'atts' => {},
+              'children' => [
+                '14.99'
+              ]
+            },
+            'jaehrlich' => {
+              'atts' => {},
+              'children' => [
+                '299.88'
+              ]
+            },
+            'monatlich' => {
+              'atts' => {},
+              'children' => [
+                '24.99'
+              ]
+            },
+            'quartal' => {
+              'atts' => {},
+              'children' => [
+                '74.97'
+              ]
+            },
             'tag' => 'zahlung'
           }
         ],
@@ -1364,30 +1326,24 @@ $VAR1 = {
             'tag' => 'name'
           },
           {
-            'atts' => {},
-            'children' => [
-              {
-                'atts' => {},
-                'children' => [
-                  '4.99'
-                ],
-                'tag' => 'epreis'
-              },
-              {
-                'atts' => {},
-                'children' => [
-                  '0.99'
-                ],
-                'tag' => 'apreis'
-              },
-              {
-                'atts' => {},
-                'children' => [
-                  '11.88'
-                ],
-                'tag' => 'jaehrlich'
-              }
-            ],
+            'apreis' => {
+              'atts' => {},
+              'children' => [
+                '0.99'
+              ]
+            },
+            'epreis' => {
+              'atts' => {},
+              'children' => [
+                '4.99'
+              ]
+            },
+            'jaehrlich' => {
+              'atts' => {},
+              'children' => [
+                '11.88'
+              ]
+            },
             'tag' => 'zahlung'
           }
         ],
@@ -1411,44 +1367,36 @@ $VAR1 = {
             'tag' => 'features'
           },
           {
-            'atts' => {},
-            'children' => [
-              {
-                'atts' => {},
-                'children' => [
-                  '9.99'
-                ],
-                'tag' => 'epreis'
-              },
-              {
-                'atts' => {},
-                'children' => [
-                  '4.99'
-                ],
-                'tag' => 'apreis'
-              },
-              {
-                'atts' => {},
-                'children' => [
-                  '4.99'
-                ],
-                'tag' => 'monatlich'
-              },
-              {
-                'atts' => {},
-                'children' => [
-                  '14.97'
-                ],
-                'tag' => 'quartal'
-              },
-              {
-                'atts' => {},
-                'children' => [
-                  '59.88'
-                ],
-                'tag' => 'jaehrlich'
-              }
-            ],
+            'apreis' => {
+              'atts' => {},
+              'children' => [
+                '4.99'
+              ]
+            },
+            'epreis' => {
+              'atts' => {},
+              'children' => [
+                '9.99'
+              ]
+            },
+            'jaehrlich' => {
+              'atts' => {},
+              'children' => [
+                '59.88'
+              ]
+            },
+            'monatlich' => {
+              'atts' => {},
+              'children' => [
+                '4.99'
+              ]
+            },
+            'quartal' => {
+              'atts' => {},
+              'children' => [
+                '14.97'
+              ]
+            },
             'tag' => 'zahlung'
           }
         ],
@@ -1472,44 +1420,36 @@ $VAR1 = {
             'tag' => 'features'
           },
           {
-            'atts' => {},
-            'children' => [
-              {
-                'atts' => {},
-                'children' => [
-                  '9.99'
-                ],
-                'tag' => 'epreis'
-              },
-              {
-                'atts' => {},
-                'children' => [
-                  '9.99'
-                ],
-                'tag' => 'apreis'
-              },
-              {
-                'atts' => {},
-                'children' => [
-                  '9.99'
-                ],
-                'tag' => 'monatlich'
-              },
-              {
-                'atts' => {},
-                'children' => [
-                  '29.97'
-                ],
-                'tag' => 'quartal'
-              },
-              {
-                'atts' => {},
-                'children' => [
-                  '119.88'
-                ],
-                'tag' => 'jaehrlich'
-              }
-            ],
+            'apreis' => {
+              'atts' => {},
+              'children' => [
+                '9.99'
+              ]
+            },
+            'epreis' => {
+              'atts' => {},
+              'children' => [
+                '9.99'
+              ]
+            },
+            'jaehrlich' => {
+              'atts' => {},
+              'children' => [
+                '119.88'
+              ]
+            },
+            'monatlich' => {
+              'atts' => {},
+              'children' => [
+                '9.99'
+              ]
+            },
+            'quartal' => {
+              'atts' => {},
+              'children' => [
+                '29.97'
+              ]
+            },
             'tag' => 'zahlung'
           }
         ],
@@ -1535,44 +1475,36 @@ $VAR1 = {
             'tag' => 'features'
           },
           {
-            'atts' => {},
-            'children' => [
-              {
-                'atts' => {},
-                'children' => [
-                  '9.99'
-                ],
-                'tag' => 'epreis'
-              },
-              {
-                'atts' => {},
-                'children' => [
-                  '19.99'
-                ],
-                'tag' => 'apreis'
-              },
-              {
-                'atts' => {},
-                'children' => [
-                  '19.99'
-                ],
-                'tag' => 'monatlich'
-              },
-              {
-                'atts' => {},
-                'children' => [
-                  '59.97'
-                ],
-                'tag' => 'quartal'
-              },
-              {
-                'atts' => {},
-                'children' => [
-                  '239.88'
-                ],
-                'tag' => 'jaehrlich'
-              }
-            ],
+            'apreis' => {
+              'atts' => {},
+              'children' => [
+                '19.99'
+              ]
+            },
+            'epreis' => {
+              'atts' => {},
+              'children' => [
+                '9.99'
+              ]
+            },
+            'jaehrlich' => {
+              'atts' => {},
+              'children' => [
+                '239.88'
+              ]
+            },
+            'monatlich' => {
+              'atts' => {},
+              'children' => [
+                '19.99'
+              ]
+            },
+            'quartal' => {
+              'atts' => {},
+              'children' => [
+                '59.97'
+              ]
+            },
             'tag' => 'zahlung'
           }
         ],
@@ -1598,44 +1530,36 @@ $VAR1 = {
             'tag' => 'features'
           },
           {
-            'atts' => {},
-            'children' => [
-              {
-                'atts' => {},
-                'children' => [
-                  '14.99'
-                ],
-                'tag' => 'epreis'
-              },
-              {
-                'atts' => {},
-                'children' => [
-                  '39.99'
-                ],
-                'tag' => 'apreis'
-              },
-              {
-                'atts' => {},
-                'children' => [
-                  '39.99'
-                ],
-                'tag' => 'monatlich'
-              },
-              {
-                'atts' => {},
-                'children' => [
-                  '119.97'
-                ],
-                'tag' => 'quartal'
-              },
-              {
-                'atts' => {},
-                'children' => [
-                  '479.88'
-                ],
-                'tag' => 'jaehrlich'
-              }
-            ],
+            'apreis' => {
+              'atts' => {},
+              'children' => [
+                '39.99'
+              ]
+            },
+            'epreis' => {
+              'atts' => {},
+              'children' => [
+                '14.99'
+              ]
+            },
+            'jaehrlich' => {
+              'atts' => {},
+              'children' => [
+                '479.88'
+              ]
+            },
+            'monatlich' => {
+              'atts' => {},
+              'children' => [
+                '39.99'
+              ]
+            },
+            'quartal' => {
+              'atts' => {},
+              'children' => [
+                '119.97'
+              ]
+            },
             'tag' => 'zahlung'
           }
         ],
@@ -1666,44 +1590,36 @@ $VAR1 = {
             'tag' => 'features'
           },
           {
-            'atts' => {},
-            'children' => [
-              {
-                'atts' => {},
-                'children' => [
-                  '0.00'
-                ],
-                'tag' => 'epreis'
-              },
-              {
-                'atts' => {},
-                'children' => [
-                  '29.75'
-                ],
-                'tag' => 'apreis'
-              },
-              {
-                'atts' => {},
-                'children' => [
-                  '29.75'
-                ],
-                'tag' => 'monatlich'
-              },
-              {
-                'atts' => {},
-                'children' => [
-                  '89.25'
-                ],
-                'tag' => 'quartal'
-              },
-              {
-                'atts' => {},
-                'children' => [
-                  '357.00'
-                ],
-                'tag' => 'jaehrlich'
-              }
-            ],
+            'apreis' => {
+              'atts' => {},
+              'children' => [
+                '29.75'
+              ]
+            },
+            'epreis' => {
+              'atts' => {},
+              'children' => [
+                '0.00'
+              ]
+            },
+            'jaehrlich' => {
+              'atts' => {},
+              'children' => [
+                '357.00'
+              ]
+            },
+            'monatlich' => {
+              'atts' => {},
+              'children' => [
+                '29.75'
+              ]
+            },
+            'quartal' => {
+              'atts' => {},
+              'children' => [
+                '89.25'
+              ]
+            },
             'tag' => 'zahlung'
           }
         ],
@@ -1720,30 +1636,24 @@ $VAR1 = {
             'tag' => 'name'
           },
           {
-            'atts' => {},
-            'children' => [
-              {
-                'atts' => {},
-                'children' => [
-                  '0.00'
-                ],
-                'tag' => 'epreis'
-              },
-              {
-                'atts' => {},
-                'children' => [
-                  '1.00'
-                ],
-                'tag' => 'apreis'
-              },
-              {
-                'atts' => {},
-                'children' => [
-                  '1.00'
-                ],
-                'tag' => 'jaehrlich'
-              }
-            ],
+            'apreis' => {
+              'atts' => {},
+              'children' => [
+                '1.00'
+              ]
+            },
+            'epreis' => {
+              'atts' => {},
+              'children' => [
+                '0.00'
+              ]
+            },
+            'jaehrlich' => {
+              'atts' => {},
+              'children' => [
+                '1.00'
+              ]
+            },
             'tag' => 'zahlung'
           }
         ],
