@@ -12,6 +12,7 @@ has children_key          => ( is => 'ro', default => sub { 'children' } );
 has tag_key               => ( is => 'ro', default => sub { 'tag' } );
 has atts_key              => ( is => 'ro', default => sub { 'atts' } );
 has children_as_keys_when => ( is => 'ro', default => sub { [] } );
+has atts_as_keys_when     => ( is => 'ro', default => sub { [] } );
 has only_child_as_key     => ( is => 'ro', default => sub { {} } );
 
 sub _build_twig { XML::Twig->new }
@@ -114,9 +115,27 @@ sub store_children_in_key {
 sub handle_atts {
     my ( $self, $data, $opt, $elt ) = @_;
 
+    return if $self->try_atts_as_keys( $data, $opt, $elt );
+
     $self->store_atts_in_key( $data, $opt, $elt );
 
     return;
+}
+
+sub try_atts_as_keys {
+    my ( $self, $data, $opt, $elt ) = @_;
+
+    my $atts_as_keys = grep { $_->( $elt ) } @{ $self->atts_as_keys_when };
+    return if !$atts_as_keys;
+
+    my $atts = $elt->atts;
+
+    for my $att ( keys %{$atts} ) {
+        die "key '$att' was already set on data element" if exists $data->{$att};
+        $data->{$att} = $atts->{$att};
+    }
+
+    return 1;
 }
 
 sub store_atts_in_key {

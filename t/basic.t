@@ -39,6 +39,7 @@ sub run {
             root_wrapper          => "preise",
             children_as_keys_when => [ $is_root, $is_domain_holder ],
             only_child_as_key     => { preis => $is_in_domain_holder },
+            atts_as_keys_when     => [$is_in_domain_holder],
         );
         ok $xd->parsefile( "corpus/preise.xml" );
 

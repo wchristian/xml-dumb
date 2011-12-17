@@ -2,146 +2,117 @@ $VAR1 = {
   'atts' => {},
   'domains' => {
     'at' => {
-      'atts' => {},
       'preis' => '19',
       'tag' => 'at'
     },
     'atts' => {},
     'be' => {
-      'atts' => {},
       'preis' => '19',
       'tag' => 'be'
     },
     'biz' => {
-      'atts' => {},
       'preis' => '12',
       'tag' => 'biz'
     },
     'bz' => {
-      'atts' => {},
       'preis' => '56',
       'tag' => 'bz'
     },
     'cc' => {
-      'atts' => {},
       'preis' => '29',
       'tag' => 'cc'
     },
     'ch' => {
-      'atts' => {},
       'preis' => '29',
       'tag' => 'ch'
     },
     'co.at' => {
-      'atts' => {},
       'preis' => '19',
       'tag' => 'co.at'
     },
     'co.uk' => {
-      'atts' => {},
       'preis' => '21',
       'tag' => 'co.uk'
     },
     'com' => {
-      'atts' => {},
       'preis' => '12',
       'tag' => 'com'
     },
     'de' => {
-      'atts' => {
-        'sort' => '1'
-      },
       'preis' => '8',
+      'sort' => '1',
       'tag' => 'de'
     },
     'eu' => {
-      'atts' => {},
       'preis' => '15',
       'tag' => 'eu'
     },
     'gs' => {
-      'atts' => {},
       'preis' => '47',
       'tag' => 'gs'
     },
     'in' => {
-      'atts' => {},
       'preis' => '29',
       'tag' => 'in'
     },
     'info' => {
-      'atts' => {},
       'preis' => '12',
       'tag' => 'info'
     },
     'it' => {
-      'atts' => {},
       'preis' => '79',
       'tag' => 'it'
     },
     'jp' => {
-      'atts' => {},
       'preis' => '149',
       'tag' => 'jp'
     },
     'li' => {
-      'atts' => {},
       'preis' => '29',
       'tag' => 'li'
     },
     'name' => {
-      'atts' => {},
       'preis' => '14',
       'tag' => 'name'
     },
     'net' => {
-      'atts' => {},
       'preis' => '12',
       'tag' => 'net'
     },
     'or.at' => {
-      'atts' => {},
       'preis' => '19',
       'tag' => 'or.at'
     },
     'org' => {
-      'atts' => {},
       'preis' => '12',
       'tag' => 'org'
     },
     'pl' => {
-      'atts' => {},
       'preis' => '59',
       'tag' => 'pl'
     },
     'ru' => {
-      'atts' => {},
       'preis' => '59',
       'tag' => 'ru'
     },
     'se' => {
-      'atts' => {},
       'preis' => '55',
       'tag' => 'se'
     },
     'tag' => 'domains',
     'tk' => {
-      'atts' => {},
       'preis' => '33',
       'tag' => 'tk'
     },
     'tv' => {
-      'atts' => {},
       'preis' => '38',
       'tag' => 'tv'
     },
     'vg' => {
-      'atts' => {},
       'preis' => '47',
       'tag' => 'vg'
     },
     'ws' => {
-      'atts' => {},
       'preis' => '19',
       'tag' => 'ws'
     }
