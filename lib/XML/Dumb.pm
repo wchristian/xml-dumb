@@ -8,12 +8,12 @@ use Moo;
 
 has $_ => ( is => 'ro', lazy => 1, builder => "_build_$_" ) for qw( twig );
 has $_ => ( is => 'ro' ) for qw( root_wrapper );
-has children_key      => ( is => 'ro', default => sub { 'children' } );
-has tag_key           => ( is => 'ro', default => sub { 'tag' } );
-has atts_key          => ( is => 'ro', default => sub { 'atts' } );
-has children_as_keys  => ( is => 'ro', default => sub { [] } );
-has atts_as_keys      => ( is => 'ro', default => sub { [] } );
-has only_child_as_key => ( is => 'ro', default => sub { {} } );
+has children_key            => ( is => 'ro', default => sub { 'children' } );
+has tag_key                 => ( is => 'ro', default => sub { 'tag' } );
+has atts_key                => ( is => 'ro', default => sub { 'atts' } );
+has children_as_keys_by_tag => ( is => 'ro', default => sub { [] } );
+has atts_as_keys            => ( is => 'ro', default => sub { [] } );
+has only_child_as_key       => ( is => 'ro', default => sub { {} } );
 
 sub _build_twig { XML::Twig->new }
 
@@ -95,7 +95,7 @@ sub try_child_as_specified_key {
 sub try_children_as_keys_by_tag {
     my ( $self, $data, $opt, $elt ) = @_;
 
-    return if !grep { $_->( $elt ) } @{ $self->children_as_keys };
+    return if !grep { $_->( $elt ) } @{ $self->children_as_keys_by_tag };
 
     die "tag with children as keys cannot have additional atts" if $elt->has_atts;
     $data->{ $_->tag } = $self->elt_to_perl( $_ ) for $elt->children;
