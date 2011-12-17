@@ -49,6 +49,13 @@ sub run {
               and ($_[0]->parent->parent->tag eq 'vserver'
                 or $_[0]->parent->parent->tag eq 'webspace' );
         };
+        my $is_named_payment = sub {
+                  $_[0]->parent
+              and $_[0]->parent->tag eq 'zahlung'
+              and $_[0]->parent->parent
+              and $_[0]->parent->parent->parent
+              and ( $_[0]->parent->parent->parent->tag eq 'webspace' );
+        };
 
         ok my $xd = XML::Dumb->new(
             root_wrapper            => "preise",
@@ -56,6 +63,7 @@ sub run {
             children_as_keys_by_att => { length => $is_payment_interval_holder },
             only_child_as_key       => { preis  => $is_in_domain_holder },
             atts_as_keys            => [$is_in_domain_holder],
+            element_as_only_child   => [$is_named_payment],
         );
         ok $xd->parsefile( "corpus/preise.xml" );
 

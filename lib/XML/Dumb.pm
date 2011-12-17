@@ -15,6 +15,7 @@ has children_as_keys_by_tag => ( is => 'ro', default => sub { [] } );
 has children_as_keys_by_att => ( is => 'ro', default => sub { {} } );
 has atts_as_keys            => ( is => 'ro', default => sub { [] } );
 has only_child_as_key       => ( is => 'ro', default => sub { {} } );
+has element_as_only_child   => ( is => 'ro', default => sub { [] } );
 
 sub _build_twig { XML::Twig->new }
 
@@ -52,9 +53,19 @@ sub to_perl {
 sub elt_to_perl {
     my ( $self, $elt, $opt ) = @_;
     $opt ||= {};
+    $elt = $elt->first_child if $self->check_element_as_only_child( $elt );
     return $self->complex_elt_to_perl( $elt, $opt ) if $elt->is_elt;
     return $elt->text if !$elt->is_field;
     die "unknown element";
+}
+
+sub check_element_as_only_child {
+    my ( $self, $elt ) = @_;
+
+    return if !grep { $_->( $elt ) } @{ $self->element_as_only_child };
+
+    die "element does not have exactly one child" if $elt->children != 1;
+    return 1;
 }
 
 sub complex_elt_to_perl {
