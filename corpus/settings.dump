@@ -2,119 +2,90 @@ $VAR1 = {
   'atts' => {},
   'domains' => {
     'at' => {
-      'preis' => '19',
-      'tag' => 'at'
+      'preis' => '19'
     },
     'atts' => {},
     'be' => {
-      'preis' => '19',
-      'tag' => 'be'
+      'preis' => '19'
     },
     'biz' => {
-      'preis' => '12',
-      'tag' => 'biz'
+      'preis' => '12'
     },
     'bz' => {
-      'preis' => '56',
-      'tag' => 'bz'
+      'preis' => '56'
     },
     'cc' => {
-      'preis' => '29',
-      'tag' => 'cc'
+      'preis' => '29'
     },
     'ch' => {
-      'preis' => '29',
-      'tag' => 'ch'
+      'preis' => '29'
     },
     'co.at' => {
-      'preis' => '19',
-      'tag' => 'co.at'
+      'preis' => '19'
     },
     'co.uk' => {
-      'preis' => '21',
-      'tag' => 'co.uk'
+      'preis' => '21'
     },
     'com' => {
-      'preis' => '12',
-      'tag' => 'com'
+      'preis' => '12'
     },
     'de' => {
       'preis' => '8',
-      'sort' => '1',
-      'tag' => 'de'
+      'sort' => '1'
     },
     'eu' => {
-      'preis' => '15',
-      'tag' => 'eu'
+      'preis' => '15'
     },
     'gs' => {
-      'preis' => '47',
-      'tag' => 'gs'
+      'preis' => '47'
     },
     'in' => {
-      'preis' => '29',
-      'tag' => 'in'
+      'preis' => '29'
     },
     'info' => {
-      'preis' => '12',
-      'tag' => 'info'
+      'preis' => '12'
     },
     'it' => {
-      'preis' => '79',
-      'tag' => 'it'
+      'preis' => '79'
     },
     'jp' => {
-      'preis' => '149',
-      'tag' => 'jp'
+      'preis' => '149'
     },
     'li' => {
-      'preis' => '29',
-      'tag' => 'li'
+      'preis' => '29'
     },
     'name' => {
-      'preis' => '14',
-      'tag' => 'name'
+      'preis' => '14'
     },
     'net' => {
-      'preis' => '12',
-      'tag' => 'net'
+      'preis' => '12'
     },
     'or.at' => {
-      'preis' => '19',
-      'tag' => 'or.at'
+      'preis' => '19'
     },
     'org' => {
-      'preis' => '12',
-      'tag' => 'org'
+      'preis' => '12'
     },
     'pl' => {
-      'preis' => '59',
-      'tag' => 'pl'
+      'preis' => '59'
     },
     'ru' => {
-      'preis' => '59',
-      'tag' => 'ru'
+      'preis' => '59'
     },
     'se' => {
-      'preis' => '55',
-      'tag' => 'se'
+      'preis' => '55'
     },
-    'tag' => 'domains',
     'tk' => {
-      'preis' => '33',
-      'tag' => 'tk'
+      'preis' => '33'
     },
     'tv' => {
-      'preis' => '38',
-      'tag' => 'tv'
+      'preis' => '38'
     },
     'vg' => {
-      'preis' => '47',
-      'tag' => 'vg'
+      'preis' => '47'
     },
     'ws' => {
-      'preis' => '19',
-      'tag' => 'ws'
+      'preis' => '19'
     }
   },
   'housing' => {
@@ -209,8 +180,7 @@ $VAR1 = {
         ],
         'tag' => 'rack'
       }
-    ],
-    'tag' => 'housing'
+    ]
   },
   'managed-server' => {
     'atts' => {},
@@ -740,15 +710,13 @@ $VAR1 = {
         ],
         'tag' => 'enterprise'
       }
-    ],
-    'tag' => 'managed-server'
+    ]
   },
   'mwst' => {
     'atts' => {},
     'children' => [
       '19'
-    ],
-    'tag' => 'mwst'
+    ]
   },
   'rackhousing' => {
     'atts' => {},
@@ -821,8 +789,7 @@ $VAR1 = {
         ],
         'tag' => 'halfrack'
       }
-    ],
-    'tag' => 'rackhousing'
+    ]
   },
   'root-server' => {
     'atts' => {},
@@ -1240,8 +1207,7 @@ $VAR1 = {
         ],
         'tag' => 'enterprise'
       }
-    ],
-    'tag' => 'root-server'
+    ]
   },
   'tag' => 'preise',
   'vserver' => {
@@ -1388,8 +1354,7 @@ $VAR1 = {
         ],
         'tag' => 'vserver_highend'
       }
-    ],
-    'tag' => 'vserver'
+    ]
   },
   'webspace' => {
     'atts' => {},
@@ -1797,7 +1762,6 @@ $VAR1 = {
         ],
         'tag' => 'domainpaket'
       }
-    ],
-    'tag' => 'webspace'
+    ]
   }
 };

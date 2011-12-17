@@ -50,8 +50,8 @@ sub to_perl {
 }
 
 sub elt_to_perl {
-    my ( $self, $elt ) = @_;
-    return $self->complex_elt_to_perl( $elt ) if $elt->is_elt;
+    my ( $self, $elt, $opt ) = @_;
+    return $self->complex_elt_to_perl( $elt, $opt ) if $elt->is_elt;
     return $elt->text if !$elt->is_field;
     die "unknown element";
 }
@@ -103,7 +103,7 @@ sub try_children_as_keys_by_tag {
     for my $child ( $elt->children ) {
         my $key = $child->tag;
         die "key '$key' was already set on data element" if exists $data->{$key};
-        $data->{$key} = $self->elt_to_perl( $child );
+        $data->{$key} = $self->elt_to_perl( $child, { no_tag_key => 1 } );
     }
 
     return 1;
@@ -132,7 +132,7 @@ sub store_children_in_key {
     my ( $self, $data, $opt, $elt ) = @_;
 
     $data->{ $self->children_key } = [];
-    push @{ $data->{ $self->children_key } }, $self->elt_to_perl( $_, { no_tag_key => 1 } ) for $elt->children;
+    push @{ $data->{ $self->children_key } }, $self->elt_to_perl( $_ ) for $elt->children;
 
     return;
 }
