@@ -12,6 +12,7 @@ has children_key            => ( is => 'ro', default => sub { 'children' } );
 has tag_key                 => ( is => 'ro', default => sub { 'tag' } );
 has atts_key                => ( is => 'ro', default => sub { 'atts' } );
 has children_as_keys_by_tag => ( is => 'ro', default => sub { [] } );
+has children_as_keys_by_att => ( is => 'ro', default => sub { {} } );
 has atts_as_keys            => ( is => 'ro', default => sub { [] } );
 has only_child_as_key       => ( is => 'ro', default => sub { {} } );
 
@@ -75,6 +76,7 @@ sub handle_children {
 
     return if $self->try_child_as_specified_key( $data, $opt, $elt );
     return if $self->try_children_as_keys_by_tag( $data, $opt, $elt );
+    return if $self->try_children_as_keys_by_att( $data, $opt, $elt );
 
     $self->store_children_in_key( $data, $opt, $elt );
     return;
@@ -101,6 +103,25 @@ sub try_children_as_keys_by_tag {
     for my $child ( $elt->children ) {
         my $key = $child->tag;
         die "key '$key' was already set on data element" if exists $data->{$key};
+        $data->{$key} = $self->elt_to_perl( $child );
+    }
+
+    return 1;
+}
+
+sub try_children_as_keys_by_att {
+    my ( $self, $data, $opt, $elt ) = @_;
+
+    my $associations = $self->children_as_keys_by_att;
+    my ( $child_att ) = grep { $associations->{$_}->( $elt ) } keys %{$associations};
+    return if !$child_att;
+
+    die "tag with children as keys cannot have additional atts" if $elt->has_atts;
+    for my $child ( $elt->children ) {
+        my $key = $child->att( $child_att );
+        die "child has no value in att '$key'" if !$key;
+        die "key '$key' was already set on data element" if exists $data->{$key};
+        $child->del_att( $child_att );
         $data->{$key} = $self->elt_to_perl( $child );
     }
 

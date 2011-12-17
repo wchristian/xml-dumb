@@ -254,75 +254,67 @@ $VAR1 = {
             'tag' => 'opt_ram'
           },
           {
+            '12' => {
+              'atts' => {},
+              'children' => [
+                {
+                  'atts' => {},
+                  'children' => [
+                    '98,-'
+                  ],
+                  'tag' => 'preis'
+                },
+                {
+                  'atts' => {},
+                  'children' => [
+                    '79,-'
+                  ],
+                  'tag' => 'setup'
+                }
+              ],
+              'tag' => 'interval'
+            },
+            '24' => {
+              'atts' => {},
+              'children' => [
+                {
+                  'atts' => {},
+                  'children' => [
+                    '88,-'
+                  ],
+                  'tag' => 'preis'
+                },
+                {
+                  'atts' => {},
+                  'children' => [
+                    '49,-'
+                  ],
+                  'tag' => 'setup'
+                }
+              ],
+              'tag' => 'interval'
+            },
+            '36' => {
+              'atts' => {},
+              'children' => [
+                {
+                  'atts' => {},
+                  'children' => [
+                    '78,-'
+                  ],
+                  'tag' => 'preis'
+                },
+                {
+                  'atts' => {},
+                  'children' => [
+                    '0,-'
+                  ],
+                  'tag' => 'setup'
+                }
+              ],
+              'tag' => 'interval'
+            },
             'atts' => {},
-            'children' => [
-              {
-                'atts' => {
-                  'length' => '12'
-                },
-                'children' => [
-                  {
-                    'atts' => {},
-                    'children' => [
-                      '98,-'
-                    ],
-                    'tag' => 'preis'
-                  },
-                  {
-                    'atts' => {},
-                    'children' => [
-                      '79,-'
-                    ],
-                    'tag' => 'setup'
-                  }
-                ],
-                'tag' => 'interval'
-              },
-              {
-                'atts' => {
-                  'length' => '24'
-                },
-                'children' => [
-                  {
-                    'atts' => {},
-                    'children' => [
-                      '88,-'
-                    ],
-                    'tag' => 'preis'
-                  },
-                  {
-                    'atts' => {},
-                    'children' => [
-                      '49,-'
-                    ],
-                    'tag' => 'setup'
-                  }
-                ],
-                'tag' => 'interval'
-              },
-              {
-                'atts' => {
-                  'length' => '36'
-                },
-                'children' => [
-                  {
-                    'atts' => {},
-                    'children' => [
-                      '78,-'
-                    ],
-                    'tag' => 'preis'
-                  },
-                  {
-                    'atts' => {},
-                    'children' => [
-                      '0,-'
-                    ],
-                    'tag' => 'setup'
-                  }
-                ],
-                'tag' => 'interval'
-              }
-            ],
             'tag' => 'zahlung'
           }
         ],
@@ -332,75 +324,67 @@ $VAR1 = {
         'atts' => {},
         'children' => [
           {
+            '12' => {
+              'atts' => {},
+              'children' => [
+                {
+                  'atts' => {},
+                  'children' => [
+                    '116,-'
+                  ],
+                  'tag' => 'preis'
+                },
+                {
+                  'atts' => {},
+                  'children' => [
+                    '199,-'
+                  ],
+                  'tag' => 'setup'
+                }
+              ],
+              'tag' => 'interval'
+            },
+            '24' => {
+              'atts' => {},
+              'children' => [
+                {
+                  'atts' => {},
+                  'children' => [
+                    '103,-'
+                  ],
+                  'tag' => 'preis'
+                },
+                {
+                  'atts' => {},
+                  'children' => [
+                    '99,-'
+                  ],
+                  'tag' => 'setup'
+                }
+              ],
+              'tag' => 'interval'
+            },
+            '36' => {
+              'atts' => {},
+              'children' => [
+                {
+                  'atts' => {},
+                  'children' => [
+                    '98,-'
+                  ],
+                  'tag' => 'preis'
+                },
+                {
+                  'atts' => {},
+                  'children' => [
+                    '0,-'
+                  ],
+                  'tag' => 'setup'
+                }
+              ],
+              'tag' => 'interval'
+            },
             'atts' => {},
-            'children' => [
-              {
-                'atts' => {
-                  'length' => '12'
-                },
-                'children' => [
-                  {
-                    'atts' => {},
-                    'children' => [
-                      '116,-'
-                    ],
-                    'tag' => 'preis'
-                  },
-                  {
-                    'atts' => {},
-                    'children' => [
-                      '199,-'
-                    ],
-                    'tag' => 'setup'
-                  }
-                ],
-                'tag' => 'interval'
-              },
-              {
-                'atts' => {
-                  'length' => '24'
-                },
-                'children' => [
-                  {
-                    'atts' => {},
-                    'children' => [
-                      '103,-'
-                    ],
-                    'tag' => 'preis'
-                  },
-                  {
-                    'atts' => {},
-                    'children' => [
-                      '99,-'
-                    ],
-                    'tag' => 'setup'
-                  }
-                ],
-                'tag' => 'interval'
-              },
-              {
-                'atts' => {
-                  'length' => '36'
-                },
-                'children' => [
-                  {
-                    'atts' => {},
-                    'children' => [
-                      '98,-'
-                    ],
-                    'tag' => 'preis'
-                  },
-                  {
-                    'atts' => {},
-                    'children' => [
-                      '0,-'
-                    ],
-                    'tag' => 'setup'
-                  }
-                ],
-                'tag' => 'interval'
-              }
-            ],
             'tag' => 'zahlung'
           }
         ],
@@ -410,75 +394,67 @@ $VAR1 = {
         'atts' => {},
         'children' => [
           {
+            '12' => {
+              'atts' => {},
+              'children' => [
+                {
+                  'atts' => {},
+                  'children' => [
+                    '186,-'
+                  ],
+                  'tag' => 'preis'
+                },
+                {
+                  'atts' => {},
+                  'children' => [
+                    '199,-'
+                  ],
+                  'tag' => 'setup'
+                }
+              ],
+              'tag' => 'interval'
+            },
+            '24' => {
+              'atts' => {},
+              'children' => [
+                {
+                  'atts' => {},
+                  'children' => [
+                    '165,-'
+                  ],
+                  'tag' => 'preis'
+                },
+                {
+                  'atts' => {},
+                  'children' => [
+                    '99,-'
+                  ],
+                  'tag' => 'setup'
+                }
+              ],
+              'tag' => 'interval'
+            },
+            '36' => {
+              'atts' => {},
+              'children' => [
+                {
+                  'atts' => {},
+                  'children' => [
+                    '158,-'
+                  ],
+                  'tag' => 'preis'
+                },
+                {
+                  'atts' => {},
+                  'children' => [
+                    '0,-'
+                  ],
+                  'tag' => 'setup'
+                }
+              ],
+              'tag' => 'interval'
+            },
             'atts' => {},
-            'children' => [
-              {
-                'atts' => {
-                  'length' => '12'
-                },
-                'children' => [
-                  {
-                    'atts' => {},
-                    'children' => [
-                      '186,-'
-                    ],
-                    'tag' => 'preis'
-                  },
-                  {
-                    'atts' => {},
-                    'children' => [
-                      '199,-'
-                    ],
-                    'tag' => 'setup'
-                  }
-                ],
-                'tag' => 'interval'
-              },
-              {
-                'atts' => {
-                  'length' => '24'
-                },
-                'children' => [
-                  {
-                    'atts' => {},
-                    'children' => [
-                      '165,-'
-                    ],
-                    'tag' => 'preis'
-                  },
-                  {
-                    'atts' => {},
-                    'children' => [
-                      '99,-'
-                    ],
-                    'tag' => 'setup'
-                  }
-                ],
-                'tag' => 'interval'
-              },
-              {
-                'atts' => {
-                  'length' => '36'
-                },
-                'children' => [
-                  {
-                    'atts' => {},
-                    'children' => [
-                      '158,-'
-                    ],
-                    'tag' => 'preis'
-                  },
-                  {
-                    'atts' => {},
-                    'children' => [
-                      '0,-'
-                    ],
-                    'tag' => 'setup'
-                  }
-                ],
-                'tag' => 'interval'
-              }
-            ],
             'tag' => 'zahlung'
           }
         ],
@@ -488,75 +464,67 @@ $VAR1 = {
         'atts' => {},
         'children' => [
           {
+            '12' => {
+              'atts' => {},
+              'children' => [
+                {
+                  'atts' => {},
+                  'children' => [
+                    '210,-'
+                  ],
+                  'tag' => 'preis'
+                },
+                {
+                  'atts' => {},
+                  'children' => [
+                    '199,-'
+                  ],
+                  'tag' => 'setup'
+                }
+              ],
+              'tag' => 'interval'
+            },
+            '24' => {
+              'atts' => {},
+              'children' => [
+                {
+                  'atts' => {},
+                  'children' => [
+                    '186,-'
+                  ],
+                  'tag' => 'preis'
+                },
+                {
+                  'atts' => {},
+                  'children' => [
+                    '99,-'
+                  ],
+                  'tag' => 'setup'
+                }
+              ],
+              'tag' => 'interval'
+            },
+            '36' => {
+              'atts' => {},
+              'children' => [
+                {
+                  'atts' => {},
+                  'children' => [
+                    '178,-'
+                  ],
+                  'tag' => 'preis'
+                },
+                {
+                  'atts' => {},
+                  'children' => [
+                    '0,-'
+                  ],
+                  'tag' => 'setup'
+                }
+              ],
+              'tag' => 'interval'
+            },
             'atts' => {},
-            'children' => [
-              {
-                'atts' => {
-                  'length' => '12'
-                },
-                'children' => [
-                  {
-                    'atts' => {},
-                    'children' => [
-                      '210,-'
-                    ],
-                    'tag' => 'preis'
-                  },
-                  {
-                    'atts' => {},
-                    'children' => [
-                      '199,-'
-                    ],
-                    'tag' => 'setup'
-                  }
-                ],
-                'tag' => 'interval'
-              },
-              {
-                'atts' => {
-                  'length' => '24'
-                },
-                'children' => [
-                  {
-                    'atts' => {},
-                    'children' => [
-                      '186,-'
-                    ],
-                    'tag' => 'preis'
-                  },
-                  {
-                    'atts' => {},
-                    'children' => [
-                      '99,-'
-                    ],
-                    'tag' => 'setup'
-                  }
-                ],
-                'tag' => 'interval'
-              },
-              {
-                'atts' => {
-                  'length' => '36'
-                },
-                'children' => [
-                  {
-                    'atts' => {},
-                    'children' => [
-                      '178,-'
-                    ],
-                    'tag' => 'preis'
-                  },
-                  {
-                    'atts' => {},
-                    'children' => [
-                      '0,-'
-                    ],
-                    'tag' => 'setup'
-                  }
-                ],
-                'tag' => 'interval'
-              }
-            ],
             'tag' => 'zahlung'
           }
         ],
@@ -601,75 +569,67 @@ $VAR1 = {
             'tag' => 'sehr_hoch'
           },
           {
+            '12' => {
+              'atts' => {},
+              'children' => [
+                {
+                  'atts' => {},
+                  'children' => [
+                    '422,-'
+                  ],
+                  'tag' => 'preis'
+                },
+                {
+                  'atts' => {},
+                  'children' => [
+                    '399,-'
+                  ],
+                  'tag' => 'setup'
+                }
+              ],
+              'tag' => 'interval'
+            },
+            '24' => {
+              'atts' => {},
+              'children' => [
+                {
+                  'atts' => {},
+                  'children' => [
+                    '337,-'
+                  ],
+                  'tag' => 'preis'
+                },
+                {
+                  'atts' => {},
+                  'children' => [
+                    '199,-'
+                  ],
+                  'tag' => 'setup'
+                }
+              ],
+              'tag' => 'interval'
+            },
+            '36' => {
+              'atts' => {},
+              'children' => [
+                {
+                  'atts' => {},
+                  'children' => [
+                    '308,-'
+                  ],
+                  'tag' => 'preis'
+                },
+                {
+                  'atts' => {},
+                  'children' => [
+                    '0,-'
+                  ],
+                  'tag' => 'setup'
+                }
+              ],
+              'tag' => 'interval'
+            },
             'atts' => {},
-            'children' => [
-              {
-                'atts' => {
-                  'length' => '12'
-                },
-                'children' => [
-                  {
-                    'atts' => {},
-                    'children' => [
-                      '422,-'
-                    ],
-                    'tag' => 'preis'
-                  },
-                  {
-                    'atts' => {},
-                    'children' => [
-                      '399,-'
-                    ],
-                    'tag' => 'setup'
-                  }
-                ],
-                'tag' => 'interval'
-              },
-              {
-                'atts' => {
-                  'length' => '24'
-                },
-                'children' => [
-                  {
-                    'atts' => {},
-                    'children' => [
-                      '337,-'
-                    ],
-                    'tag' => 'preis'
-                  },
-                  {
-                    'atts' => {},
-                    'children' => [
-                      '199,-'
-                    ],
-                    'tag' => 'setup'
-                  }
-                ],
-                'tag' => 'interval'
-              },
-              {
-                'atts' => {
-                  'length' => '36'
-                },
-                'children' => [
-                  {
-                    'atts' => {},
-                    'children' => [
-                      '308,-'
-                    ],
-                    'tag' => 'preis'
-                  },
-                  {
-                    'atts' => {},
-                    'children' => [
-                      '0,-'
-                    ],
-                    'tag' => 'setup'
-                  }
-                ],
-                'tag' => 'interval'
-              }
-            ],
             'tag' => 'zahlung'
           }
         ],
@@ -714,75 +674,67 @@ $VAR1 = {
             'tag' => 'sehr_hoch'
           },
           {
+            '12' => {
+              'atts' => {},
+              'children' => [
+                {
+                  'atts' => {},
+                  'children' => [
+                    '637,-'
+                  ],
+                  'tag' => 'preis'
+                },
+                {
+                  'atts' => {},
+                  'children' => [
+                    '399,-'
+                  ],
+                  'tag' => 'setup'
+                }
+              ],
+              'tag' => 'interval'
+            },
+            '24' => {
+              'atts' => {},
+              'children' => [
+                {
+                  'atts' => {},
+                  'children' => [
+                    '481,-'
+                  ],
+                  'tag' => 'preis'
+                },
+                {
+                  'atts' => {},
+                  'children' => [
+                    '199,-'
+                  ],
+                  'tag' => 'setup'
+                }
+              ],
+              'tag' => 'interval'
+            },
+            '36' => {
+              'atts' => {},
+              'children' => [
+                {
+                  'atts' => {},
+                  'children' => [
+                    '428,-'
+                  ],
+                  'tag' => 'preis'
+                },
+                {
+                  'atts' => {},
+                  'children' => [
+                    '0,-'
+                  ],
+                  'tag' => 'setup'
+                }
+              ],
+              'tag' => 'interval'
+            },
             'atts' => {},
-            'children' => [
-              {
-                'atts' => {
-                  'length' => '12'
-                },
-                'children' => [
-                  {
-                    'atts' => {},
-                    'children' => [
-                      '637,-'
-                    ],
-                    'tag' => 'preis'
-                  },
-                  {
-                    'atts' => {},
-                    'children' => [
-                      '399,-'
-                    ],
-                    'tag' => 'setup'
-                  }
-                ],
-                'tag' => 'interval'
-              },
-              {
-                'atts' => {
-                  'length' => '24'
-                },
-                'children' => [
-                  {
-                    'atts' => {},
-                    'children' => [
-                      '481,-'
-                    ],
-                    'tag' => 'preis'
-                  },
-                  {
-                    'atts' => {},
-                    'children' => [
-                      '199,-'
-                    ],
-                    'tag' => 'setup'
-                  }
-                ],
-                'tag' => 'interval'
-              },
-              {
-                'atts' => {
-                  'length' => '36'
-                },
-                'children' => [
-                  {
-                    'atts' => {},
-                    'children' => [
-                      '428,-'
-                    ],
-                    'tag' => 'preis'
-                  },
-                  {
-                    'atts' => {},
-                    'children' => [
-                      '0,-'
-                    ],
-                    'tag' => 'setup'
-                  }
-                ],
-                'tag' => 'interval'
-              }
-            ],
             'tag' => 'zahlung'
           }
         ],
@@ -914,75 +866,67 @@ $VAR1 = {
             'tag' => 'opt_ram'
           },
           {
+            '12' => {
+              'atts' => {},
+              'children' => [
+                {
+                  'atts' => {},
+                  'children' => [
+                    '87,-'
+                  ],
+                  'tag' => 'preis'
+                },
+                {
+                  'atts' => {},
+                  'children' => [
+                    '199,-'
+                  ],
+                  'tag' => 'setup'
+                }
+              ],
+              'tag' => 'interval'
+            },
+            '24' => {
+              'atts' => {},
+              'children' => [
+                {
+                  'atts' => {},
+                  'children' => [
+                    '74,-'
+                  ],
+                  'tag' => 'preis'
+                },
+                {
+                  'atts' => {},
+                  'children' => [
+                    '99,-'
+                  ],
+                  'tag' => 'setup'
+                }
+              ],
+              'tag' => 'interval'
+            },
+            '36' => {
+              'atts' => {},
+              'children' => [
+                {
+                  'atts' => {},
+                  'children' => [
+                    '69,-'
+                  ],
+                  'tag' => 'preis'
+                },
+                {
+                  'atts' => {},
+                  'children' => [
+                    '0,-'
+                  ],
+                  'tag' => 'setup'
+                }
+              ],
+              'tag' => 'interval'
+            },
             'atts' => {},
-            'children' => [
-              {
-                'atts' => {
-                  'length' => '12'
-                },
-                'children' => [
-                  {
-                    'atts' => {},
-                    'children' => [
-                      '87,-'
-                    ],
-                    'tag' => 'preis'
-                  },
-                  {
-                    'atts' => {},
-                    'children' => [
-                      '199,-'
-                    ],
-                    'tag' => 'setup'
-                  }
-                ],
-                'tag' => 'interval'
-              },
-              {
-                'atts' => {
-                  'length' => '24'
-                },
-                'children' => [
-                  {
-                    'atts' => {},
-                    'children' => [
-                      '74,-'
-                    ],
-                    'tag' => 'preis'
-                  },
-                  {
-                    'atts' => {},
-                    'children' => [
-                      '99,-'
-                    ],
-                    'tag' => 'setup'
-                  }
-                ],
-                'tag' => 'interval'
-              },
-              {
-                'atts' => {
-                  'length' => '36'
-                },
-                'children' => [
-                  {
-                    'atts' => {},
-                    'children' => [
-                      '69,-'
-                    ],
-                    'tag' => 'preis'
-                  },
-                  {
-                    'atts' => {},
-                    'children' => [
-                      '0,-'
-                    ],
-                    'tag' => 'setup'
-                  }
-                ],
-                'tag' => 'interval'
-              }
-            ],
             'tag' => 'zahlung'
           }
         ],
@@ -1006,75 +950,67 @@ $VAR1 = {
             'tag' => 'opt_ram'
           },
           {
+            '12' => {
+              'atts' => {},
+              'children' => [
+                {
+                  'atts' => {},
+                  'children' => [
+                    '157,-'
+                  ],
+                  'tag' => 'preis'
+                },
+                {
+                  'atts' => {},
+                  'children' => [
+                    '199,-'
+                  ],
+                  'tag' => 'setup'
+                }
+              ],
+              'tag' => 'interval'
+            },
+            '24' => {
+              'atts' => {},
+              'children' => [
+                {
+                  'atts' => {},
+                  'children' => [
+                    '136,-'
+                  ],
+                  'tag' => 'preis'
+                },
+                {
+                  'atts' => {},
+                  'children' => [
+                    '99,-'
+                  ],
+                  'tag' => 'setup'
+                }
+              ],
+              'tag' => 'interval'
+            },
+            '36' => {
+              'atts' => {},
+              'children' => [
+                {
+                  'atts' => {},
+                  'children' => [
+                    '129,-'
+                  ],
+                  'tag' => 'preis'
+                },
+                {
+                  'atts' => {},
+                  'children' => [
+                    '0,-'
+                  ],
+                  'tag' => 'setup'
+                }
+              ],
+              'tag' => 'interval'
+            },
             'atts' => {},
-            'children' => [
-              {
-                'atts' => {
-                  'length' => '12'
-                },
-                'children' => [
-                  {
-                    'atts' => {},
-                    'children' => [
-                      '157,-'
-                    ],
-                    'tag' => 'preis'
-                  },
-                  {
-                    'atts' => {},
-                    'children' => [
-                      '199,-'
-                    ],
-                    'tag' => 'setup'
-                  }
-                ],
-                'tag' => 'interval'
-              },
-              {
-                'atts' => {
-                  'length' => '24'
-                },
-                'children' => [
-                  {
-                    'atts' => {},
-                    'children' => [
-                      '136,-'
-                    ],
-                    'tag' => 'preis'
-                  },
-                  {
-                    'atts' => {},
-                    'children' => [
-                      '99,-'
-                    ],
-                    'tag' => 'setup'
-                  }
-                ],
-                'tag' => 'interval'
-              },
-              {
-                'atts' => {
-                  'length' => '36'
-                },
-                'children' => [
-                  {
-                    'atts' => {},
-                    'children' => [
-                      '129,-'
-                    ],
-                    'tag' => 'preis'
-                  },
-                  {
-                    'atts' => {},
-                    'children' => [
-                      '0,-'
-                    ],
-                    'tag' => 'setup'
-                  }
-                ],
-                'tag' => 'interval'
-              }
-            ],
             'tag' => 'zahlung'
           }
         ],
@@ -1098,75 +1034,67 @@ $VAR1 = {
             'tag' => 'opt_ram'
           },
           {
+            '12' => {
+              'atts' => {},
+              'children' => [
+                {
+                  'atts' => {},
+                  'children' => [
+                    '181,-'
+                  ],
+                  'tag' => 'preis'
+                },
+                {
+                  'atts' => {},
+                  'children' => [
+                    '199,-'
+                  ],
+                  'tag' => 'setup'
+                }
+              ],
+              'tag' => 'interval'
+            },
+            '24' => {
+              'atts' => {},
+              'children' => [
+                {
+                  'atts' => {},
+                  'children' => [
+                    '157,-'
+                  ],
+                  'tag' => 'preis'
+                },
+                {
+                  'atts' => {},
+                  'children' => [
+                    '99,-'
+                  ],
+                  'tag' => 'setup'
+                }
+              ],
+              'tag' => 'interval'
+            },
+            '36' => {
+              'atts' => {},
+              'children' => [
+                {
+                  'atts' => {},
+                  'children' => [
+                    '149,-'
+                  ],
+                  'tag' => 'preis'
+                },
+                {
+                  'atts' => {},
+                  'children' => [
+                    '0,-'
+                  ],
+                  'tag' => 'setup'
+                }
+              ],
+              'tag' => 'interval'
+            },
             'atts' => {},
-            'children' => [
-              {
-                'atts' => {
-                  'length' => '12'
-                },
-                'children' => [
-                  {
-                    'atts' => {},
-                    'children' => [
-                      '181,-'
-                    ],
-                    'tag' => 'preis'
-                  },
-                  {
-                    'atts' => {},
-                    'children' => [
-                      '199,-'
-                    ],
-                    'tag' => 'setup'
-                  }
-                ],
-                'tag' => 'interval'
-              },
-              {
-                'atts' => {
-                  'length' => '24'
-                },
-                'children' => [
-                  {
-                    'atts' => {},
-                    'children' => [
-                      '157,-'
-                    ],
-                    'tag' => 'preis'
-                  },
-                  {
-                    'atts' => {},
-                    'children' => [
-                      '99,-'
-                    ],
-                    'tag' => 'setup'
-                  }
-                ],
-                'tag' => 'interval'
-              },
-              {
-                'atts' => {
-                  'length' => '36'
-                },
-                'children' => [
-                  {
-                    'atts' => {},
-                    'children' => [
-                      '149,-'
-                    ],
-                    'tag' => 'preis'
-                  },
-                  {
-                    'atts' => {},
-                    'children' => [
-                      '0,-'
-                    ],
-                    'tag' => 'setup'
-                  }
-                ],
-                'tag' => 'interval'
-              }
-            ],
             'tag' => 'zahlung'
           }
         ],
@@ -1176,75 +1104,67 @@ $VAR1 = {
         'atts' => {},
         'children' => [
           {
+            '12' => {
+              'atts' => {},
+              'children' => [
+                {
+                  'atts' => {},
+                  'children' => [
+                    '393,-'
+                  ],
+                  'tag' => 'preis'
+                },
+                {
+                  'atts' => {},
+                  'children' => [
+                    '399,-'
+                  ],
+                  'tag' => 'setup'
+                }
+              ],
+              'tag' => 'interval'
+            },
+            '24' => {
+              'atts' => {},
+              'children' => [
+                {
+                  'atts' => {},
+                  'children' => [
+                    '308,-'
+                  ],
+                  'tag' => 'preis'
+                },
+                {
+                  'atts' => {},
+                  'children' => [
+                    '199,-'
+                  ],
+                  'tag' => 'setup'
+                }
+              ],
+              'tag' => 'interval'
+            },
+            '36' => {
+              'atts' => {},
+              'children' => [
+                {
+                  'atts' => {},
+                  'children' => [
+                    '279,-'
+                  ],
+                  'tag' => 'preis'
+                },
+                {
+                  'atts' => {},
+                  'children' => [
+                    '0,-'
+                  ],
+                  'tag' => 'setup'
+                }
+              ],
+              'tag' => 'interval'
+            },
             'atts' => {},
-            'children' => [
-              {
-                'atts' => {
-                  'length' => '12'
-                },
-                'children' => [
-                  {
-                    'atts' => {},
-                    'children' => [
-                      '393,-'
-                    ],
-                    'tag' => 'preis'
-                  },
-                  {
-                    'atts' => {},
-                    'children' => [
-                      '399,-'
-                    ],
-                    'tag' => 'setup'
-                  }
-                ],
-                'tag' => 'interval'
-              },
-              {
-                'atts' => {
-                  'length' => '24'
-                },
-                'children' => [
-                  {
-                    'atts' => {},
-                    'children' => [
-                      '308,-'
-                    ],
-                    'tag' => 'preis'
-                  },
-                  {
-                    'atts' => {},
-                    'children' => [
-                      '199,-'
-                    ],
-                    'tag' => 'setup'
-                  }
-                ],
-                'tag' => 'interval'
-              },
-              {
-                'atts' => {
-                  'length' => '36'
-                },
-                'children' => [
-                  {
-                    'atts' => {},
-                    'children' => [
-                      '279,-'
-                    ],
-                    'tag' => 'preis'
-                  },
-                  {
-                    'atts' => {},
-                    'children' => [
-                      '0,-'
-                    ],
-                    'tag' => 'setup'
-                  }
-                ],
-                'tag' => 'interval'
-              }
-            ],
             'tag' => 'zahlung'
           }
         ],
@@ -1254,75 +1174,67 @@ $VAR1 = {
         'atts' => {},
         'children' => [
           {
+            '12' => {
+              'atts' => {},
+              'children' => [
+                {
+                  'atts' => {},
+                  'children' => [
+                    '608,-'
+                  ],
+                  'tag' => 'preis'
+                },
+                {
+                  'atts' => {},
+                  'children' => [
+                    '399,-'
+                  ],
+                  'tag' => 'setup'
+                }
+              ],
+              'tag' => 'interval'
+            },
+            '24' => {
+              'atts' => {},
+              'children' => [
+                {
+                  'atts' => {},
+                  'children' => [
+                    '452,-'
+                  ],
+                  'tag' => 'preis'
+                },
+                {
+                  'atts' => {},
+                  'children' => [
+                    '199,-'
+                  ],
+                  'tag' => 'setup'
+                }
+              ],
+              'tag' => 'interval'
+            },
+            '36' => {
+              'atts' => {},
+              'children' => [
+                {
+                  'atts' => {},
+                  'children' => [
+                    '399,-'
+                  ],
+                  'tag' => 'preis'
+                },
+                {
+                  'atts' => {},
+                  'children' => [
+                    '0,-'
+                  ],
+                  'tag' => 'setup'
+                }
+              ],
+              'tag' => 'interval'
+            },
             'atts' => {},
-            'children' => [
-              {
-                'atts' => {
-                  'length' => '12'
-                },
-                'children' => [
-                  {
-                    'atts' => {},
-                    'children' => [
-                      '608,-'
-                    ],
-                    'tag' => 'preis'
-                  },
-                  {
-                    'atts' => {},
-                    'children' => [
-                      '399,-'
-                    ],
-                    'tag' => 'setup'
-                  }
-                ],
-                'tag' => 'interval'
-              },
-              {
-                'atts' => {
-                  'length' => '24'
-                },
-                'children' => [
-                  {
-                    'atts' => {},
-                    'children' => [
-                      '452,-'
-                    ],
-                    'tag' => 'preis'
-                  },
-                  {
-                    'atts' => {},
-                    'children' => [
-                      '199,-'
-                    ],
-                    'tag' => 'setup'
-                  }
-                ],
-                'tag' => 'interval'
-              },
-              {
-                'atts' => {
-                  'length' => '36'
-                },
-                'children' => [
-                  {
-                    'atts' => {},
-                    'children' => [
-                      '399,-'
-                    ],
-                    'tag' => 'preis'
-                  },
-                  {
-                    'atts' => {},
-                    'children' => [
-                      '0,-'
-                    ],
-                    'tag' => 'setup'
-                  }
-                ],
-                'tag' => 'interval'
-              }
-            ],
             'tag' => 'zahlung'
           }
         ],
