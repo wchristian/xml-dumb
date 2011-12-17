@@ -49,30 +49,28 @@ sub run {
         my $is_in_rhousing = sub { $_[0] and $is_rhousing->( $_[0]->parent ) };
         my $is_in_mserver  = sub { $_[0] and $is_mserver->( $_[0]->parent ) };
         my $is_payment_interval_holder = sub {
-                  $_[0]->tag eq 'zahlung'
-              and $_[0]->parent
-              and $_[0]->parent->parent
-              and ($_[0]->parent->parent->tag eq 'root-server'
-                or $_[0]->parent->parent->tag eq 'managed-server' );
+            $_[0]->tag eq 'zahlung' and ( $is_in_rserver->( $_[0]->parent ) or $is_in_mserver->( $_[0]->parent ) );
         };
         my $is_named_payment_holder = sub {
-                  $_[0]
+            $_[0]
               and $_[0]->tag eq 'zahlung'
-              and $_[0]->parent
-              and $_[0]->parent->parent
-              and ($_[0]->parent->parent->tag eq 'vserver'
-                or $_[0]->parent->parent->tag eq 'webspace' );
+              and ( $is_in_vserver->( $_[0]->parent ) or $is_in_webspace->( $_[0]->parent ) );
         };
-        my $is_named_payment     = sub { $is_named_payment_holder->( $_[0]->parent ) };
-        my $is_price_in_housing  = sub { $_[0]->parent and $is_in_housing->( $_[0]->parent ) };
-        my $is_mserver_att       = sub { $is_mserver->( $_[0]->parent ) and !$_[0]->first_child->is_elt };
-        my $is_mserver_item_att  = sub { $is_in_mserver->( $_[0]->parent ) and !$_[0]->first_child->is_elt };
+        my $is_named_payment = sub { $is_named_payment_holder->( $_[0]->parent ) };
+        my $is_price_in_housing = sub { $_[0]->parent and $is_in_housing->( $_[0]->parent ) };
+
+        my $is_mserver_att       = sub { $is_mserver->( $_[0]->parent )     and !$_[0]->first_child->is_elt };
+        my $is_rserver_att       = sub { $is_rserver->( $_[0]->parent )     and !$_[0]->first_child->is_elt };
+        my $is_webspace_att      = sub { $is_webspace->( $_[0]->parent )    and !$_[0]->first_child->is_elt };
         my $is_rhousing_item_att = sub { $is_in_rhousing->( $_[0]->parent ) and !$_[0]->first_child->is_elt };
-        my $is_rserver_att       = sub { $is_rserver->( $_[0]->parent ) and !$_[0]->first_child->is_elt };
-        my $is_rserver_item_att  = sub { $is_in_rserver->( $_[0]->parent ) and !$_[0]->first_child->is_elt };
-        my $is_vserver_item_att  = sub { $is_in_vserver->( $_[0]->parent ) and !$_[0]->first_child->is_elt };
-        my $is_webspace_att      = sub { $is_webspace->( $_[0]->parent ) and !$_[0]->first_child->is_elt };
-        my $is_webspace_item_att = sub { $is_in_webspace->( $_[0]->parent ) and !$_[0]->first_child->is_elt };
+        my $is_vserver_item_att  = sub { $is_in_vserver->( $_[0]->parent )  and !$_[0]->first_child->is_elt };
+
+        my $is_mserver_item_att =
+          sub { $is_in_mserver->( $_[0]->parent ) and $_[0]->first_child and !$_[0]->first_child->is_elt };
+        my $is_rserver_item_att =
+          sub { $is_in_rserver->( $_[0]->parent ) and $_[0]->first_child and !$_[0]->first_child->is_elt };
+        my $is_webspace_item_att =
+          sub { $is_in_webspace->( $_[0]->parent ) and $_[0]->first_child and !$_[0]->first_child->is_elt };
 
         ok my $xd = XML::Dumb->new(
             root_wrapper            => "preise",
@@ -86,9 +84,9 @@ sub run {
             only_child_as_key       => { preis  => $is_in_domains },
             atts_as_keys            => [$is_in_domains],
             element_as_only_child   => [
-                $is_named_payment,    $is_price_in_housing,  $is_in_interval, $is_mserver_att,
-                $is_mserver_item_att, $is_rhousing_item_att, $is_rserver_att, $is_rserver_item_att,
-                $is_vserver_item_att, $is_webspace_item_att, $is_webspace_att,
+                $is_named_payment,    $is_price_in_housing, $is_in_interval,      $is_mserver_att,
+                $is_rserver_att,      $is_webspace_att,     $is_mserver_item_att, $is_rhousing_item_att,
+                $is_rserver_item_att, $is_vserver_item_att, $is_webspace_item_att,
             ],
         );
         ok $xd->parsefile( "corpus/preise.xml" );
