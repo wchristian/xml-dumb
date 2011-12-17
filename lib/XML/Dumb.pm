@@ -113,6 +113,16 @@ sub store_children_in_attr {
 sub handle_attrs {
     my ( $self, $data, $opt, $elt ) = @_;
 
+    $self->store_attrs_in_attr( $data, $opt, $elt );
+
+    return;
+}
+
+sub store_attrs_in_attr {
+    my ( $self, $data, $opt, $elt ) = @_;
+
+    $data->{ $self->attrs_key } = $elt->atts;
+
     return;
 }
 

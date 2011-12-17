@@ -1,170 +1,202 @@
 $VAR1 = {
+  'attrs' => {},
   'children' => [
     {
+      'attrs' => {},
       'children' => [
         {
+          'attrs' => {
+            'sort' => '1'
+          },
           'children' => [
             '8'
           ],
           'tag' => 'de'
         },
         {
+          'attrs' => {},
           'children' => [
             '15'
           ],
           'tag' => 'eu'
         },
         {
+          'attrs' => {},
           'children' => [
             '19'
           ],
           'tag' => 'at'
         },
         {
+          'attrs' => {},
           'children' => [
             '19'
           ],
           'tag' => 'co.at'
         },
         {
+          'attrs' => {},
           'children' => [
             '19'
           ],
           'tag' => 'or.at'
         },
         {
+          'attrs' => {},
           'children' => [
             '12'
           ],
           'tag' => 'com'
         },
         {
+          'attrs' => {},
           'children' => [
             '12'
           ],
           'tag' => 'net'
         },
         {
+          'attrs' => {},
           'children' => [
             '12'
           ],
           'tag' => 'org'
         },
         {
+          'attrs' => {},
           'children' => [
             '12'
           ],
           'tag' => 'info'
         },
         {
+          'attrs' => {},
           'children' => [
             '12'
           ],
           'tag' => 'biz'
         },
         {
+          'attrs' => {},
           'children' => [
             '19'
           ],
           'tag' => 'be'
         },
         {
+          'attrs' => {},
           'children' => [
             '56'
           ],
           'tag' => 'bz'
         },
         {
+          'attrs' => {},
           'children' => [
             '29'
           ],
           'tag' => 'cc'
         },
         {
+          'attrs' => {},
           'children' => [
             '29'
           ],
           'tag' => 'ch'
         },
         {
+          'attrs' => {},
           'children' => [
             '21'
           ],
           'tag' => 'co.uk'
         },
         {
+          'attrs' => {},
           'children' => [
             '29'
           ],
           'tag' => 'in'
         },
         {
+          'attrs' => {},
           'children' => [
             '79'
           ],
           'tag' => 'it'
         },
         {
+          'attrs' => {},
           'children' => [
             '47'
           ],
           'tag' => 'gs'
         },
         {
+          'attrs' => {},
           'children' => [
             '149'
           ],
           'tag' => 'jp'
         },
         {
+          'attrs' => {},
           'children' => [
             '29'
           ],
           'tag' => 'li'
         },
         {
+          'attrs' => {},
           'children' => [
             '14'
           ],
           'tag' => 'name'
         },
         {
+          'attrs' => {},
           'children' => [
             '59'
           ],
           'tag' => 'pl'
         },
         {
+          'attrs' => {},
           'children' => [
             '59'
           ],
           'tag' => 'ru'
         },
         {
+          'attrs' => {},
           'children' => [
             '55'
           ],
           'tag' => 'se'
         },
         {
+          'attrs' => {},
           'children' => [
             '33'
           ],
           'tag' => 'tk'
         },
         {
+          'attrs' => {},
           'children' => [
             '38'
           ],
           'tag' => 'tv'
         },
         {
+          'attrs' => {},
           'children' => [
             '47'
           ],
           'tag' => 'vg'
         },
         {
+          'attrs' => {},
           'children' => [
             '19'
           ],
@@ -174,36 +206,44 @@ $VAR1 = {
       'tag' => 'domains'
     },
     {
+      'attrs' => {},
       'children' => [
         {
+          'attrs' => {},
           'children' => [
             '1.99'
           ],
           'tag' => 'zusatzgb'
         },
         {
+          'attrs' => {},
           'children' => [
             {
+              'attrs' => {},
               'children' => [
                 'Starter'
               ],
               'tag' => 'name'
             },
             {
+              'attrs' => {},
               'children' => [
                 {
+                  'attrs' => {},
                   'children' => [
                     '4.99'
                   ],
                   'tag' => 'epreis'
                 },
                 {
+                  'attrs' => {},
                   'children' => [
                     '0.99'
                   ],
                   'tag' => 'apreis'
                 },
                 {
+                  'attrs' => {},
                   'children' => [
                     '11.88'
                   ],
@@ -216,46 +256,55 @@ $VAR1 = {
           'tag' => 'starter'
         },
         {
+          'attrs' => {},
           'children' => [
             {
+              'attrs' => {},
               'children' => [
                 'Medium'
               ],
               'tag' => 'name'
             },
             {
+              'attrs' => {},
               'children' => [
                 "<input type=\"checkbox\" name=\"eigenes SSL-Zertifikat und eine eigene IP f\x{fc}r nur 5,99 / Monat\" value=\"chk_1\">eigenes SSL-Zertifikat und eine eigene IP f\x{fc}r nur 5,99 &euro; / Monat"
               ],
               'tag' => 'features'
             },
             {
+              'attrs' => {},
               'children' => [
                 {
+                  'attrs' => {},
                   'children' => [
                     '9.99'
                   ],
                   'tag' => 'epreis'
                 },
                 {
+                  'attrs' => {},
                   'children' => [
                     '4.99'
                   ],
                   'tag' => 'apreis'
                 },
                 {
+                  'attrs' => {},
                   'children' => [
                     '4.99'
                   ],
                   'tag' => 'monatlich'
                 },
                 {
+                  'attrs' => {},
                   'children' => [
                     '14.97'
                   ],
                   'tag' => 'quartal'
                 },
                 {
+                  'attrs' => {},
                   'children' => [
                     '59.88'
                   ],
@@ -268,46 +317,55 @@ $VAR1 = {
           'tag' => 'medium'
         },
         {
+          'attrs' => {},
           'children' => [
             {
+              'attrs' => {},
               'children' => [
                 'Highend'
               ],
               'tag' => 'name'
             },
             {
+              'attrs' => {},
               'children' => [
                 "<input type=\"checkbox\" name=\"eigene SSL-Zertifikat und eine eigene IP f\x{fc}r nur 5,99 / Monat\" value=\"chk_1\">eigenes SSL-Zertifikat und eine eigene IP f\x{fc}r nur 5,99 &euro; / Monat"
               ],
               'tag' => 'features'
             },
             {
+              'attrs' => {},
               'children' => [
                 {
+                  'attrs' => {},
                   'children' => [
                     '9.99'
                   ],
                   'tag' => 'epreis'
                 },
                 {
+                  'attrs' => {},
                   'children' => [
                     '9.99'
                   ],
                   'tag' => 'apreis'
                 },
                 {
+                  'attrs' => {},
                   'children' => [
                     '9.99'
                   ],
                   'tag' => 'monatlich'
                 },
                 {
+                  'attrs' => {},
                   'children' => [
                     '29.97'
                   ],
                   'tag' => 'quartal'
                 },
                 {
+                  'attrs' => {},
                   'children' => [
                     '119.88'
                   ],
@@ -320,14 +378,17 @@ $VAR1 = {
           'tag' => 'highend'
         },
         {
+          'attrs' => {},
           'children' => [
             {
+              'attrs' => {},
               'children' => [
                 'Business'
               ],
               'tag' => 'name'
             },
             {
+              'attrs' => {},
               'children' => [
                 "<input type=\"checkbox\" name=\"eigenes SSL-Zertifikat und eine eigene IP f\x{fc}r nur 5,99 / Monat\" value=\"chk_1\">eigenes SSL-Zertifikat und eine eigene IP f\x{fc}r nur 5,99 &euro; / Monat
             <br />
@@ -336,32 +397,38 @@ $VAR1 = {
               'tag' => 'features'
             },
             {
+              'attrs' => {},
               'children' => [
                 {
+                  'attrs' => {},
                   'children' => [
                     '9.99'
                   ],
                   'tag' => 'epreis'
                 },
                 {
+                  'attrs' => {},
                   'children' => [
                     '19.99'
                   ],
                   'tag' => 'apreis'
                 },
                 {
+                  'attrs' => {},
                   'children' => [
                     '19.99'
                   ],
                   'tag' => 'monatlich'
                 },
                 {
+                  'attrs' => {},
                   'children' => [
                     '59.97'
                   ],
                   'tag' => 'quartal'
                 },
                 {
+                  'attrs' => {},
                   'children' => [
                     '239.88'
                   ],
@@ -374,14 +441,17 @@ $VAR1 = {
           'tag' => 'business'
         },
         {
+          'attrs' => {},
           'children' => [
             {
+              'attrs' => {},
               'children' => [
                 'Expert'
               ],
               'tag' => 'name'
             },
             {
+              'attrs' => {},
               'children' => [
                 "<input type=\"checkbox\" name=\"+ eigenes SSL-Zertifikat und eine eigene IP f\x{fc}r nur 5,99 Euro / Monat\" value=\"chk_1\"> eigenes SSL-Zertifikat und eine eigene IP f\x{fc}r nur 5,99 &euro; / Monat
             <br />
@@ -390,32 +460,38 @@ $VAR1 = {
               'tag' => 'features'
             },
             {
+              'attrs' => {},
               'children' => [
                 {
+                  'attrs' => {},
                   'children' => [
                     '14.99'
                   ],
                   'tag' => 'epreis'
                 },
                 {
+                  'attrs' => {},
                   'children' => [
                     '39.99'
                   ],
                   'tag' => 'apreis'
                 },
                 {
+                  'attrs' => {},
                   'children' => [
                     '39.99'
                   ],
                   'tag' => 'monatlich'
                 },
                 {
+                  'attrs' => {},
                   'children' => [
                     '119.97'
                   ],
                   'tag' => 'quartal'
                 },
                 {
+                  'attrs' => {},
                   'children' => [
                     '479.88'
                   ],
@@ -428,52 +504,62 @@ $VAR1 = {
           'tag' => 'expert'
         },
         {
+          'attrs' => {},
           'children' => [
             {
+              'attrs' => {},
               'children' => [
                 'Shopware'
               ],
               'tag' => 'name'
             },
             {
+              'attrs' => {},
               'children' => [
                 '1'
               ],
               'tag' => 'hidden'
             },
             {
+              'attrs' => {},
               'children' => [
                 "<input type=\"checkbox\" name=\"eigenes SSL-Zertifikat und eine eigene IP f\x{fc}r nur 5,99 / Monat\" value=\"chk_1\">eigenes SSL-Zertifikat und eine eigene IP f\x{fc}r nur 5,99 &euro; / Monat"
               ],
               'tag' => 'features'
             },
             {
+              'attrs' => {},
               'children' => [
                 {
+                  'attrs' => {},
                   'children' => [
                     '0.00'
                   ],
                   'tag' => 'epreis'
                 },
                 {
+                  'attrs' => {},
                   'children' => [
                     '29.75'
                   ],
                   'tag' => 'apreis'
                 },
                 {
+                  'attrs' => {},
                   'children' => [
                     '29.75'
                   ],
                   'tag' => 'monatlich'
                 },
                 {
+                  'attrs' => {},
                   'children' => [
                     '89.25'
                   ],
                   'tag' => 'quartal'
                 },
                 {
+                  'attrs' => {},
                   'children' => [
                     '357.00'
                   ],
@@ -486,28 +572,34 @@ $VAR1 = {
           'tag' => 'shopware'
         },
         {
+          'attrs' => {},
           'children' => [
             {
+              'attrs' => {},
               'children' => [
                 'Domain Paket'
               ],
               'tag' => 'name'
             },
             {
+              'attrs' => {},
               'children' => [
                 {
+                  'attrs' => {},
                   'children' => [
                     '0.00'
                   ],
                   'tag' => 'epreis'
                 },
                 {
+                  'attrs' => {},
                   'children' => [
                     '1.00'
                   ],
                   'tag' => 'apreis'
                 },
                 {
+                  'attrs' => {},
                   'children' => [
                     '1.00'
                   ],
@@ -523,36 +615,44 @@ $VAR1 = {
       'tag' => 'webspace'
     },
     {
+      'attrs' => {},
       'children' => [
         {
+          'attrs' => {},
           'children' => [
             {
+              'attrs' => {},
               'children' => [
                 'VServer Starter'
               ],
               'tag' => 'name'
             },
             {
+              'attrs' => {},
               'children' => [
                 {
+                  'attrs' => {},
                   'children' => [
                     '14.99'
                   ],
                   'tag' => 'epreis'
                 },
                 {
+                  'attrs' => {},
                   'children' => [
                     '14.99'
                   ],
                   'tag' => 'monatlich'
                 },
                 {
+                  'attrs' => {},
                   'children' => [
                     '44.97'
                   ],
                   'tag' => 'quartal'
                 },
                 {
+                  'attrs' => {},
                   'children' => [
                     '179.88'
                   ],
@@ -565,34 +665,41 @@ $VAR1 = {
           'tag' => 'vserver_starter'
         },
         {
+          'attrs' => {},
           'children' => [
             {
+              'attrs' => {},
               'children' => [
                 'VServer Medium'
               ],
               'tag' => 'name'
             },
             {
+              'attrs' => {},
               'children' => [
                 {
+                  'attrs' => {},
                   'children' => [
                     '14.99'
                   ],
                   'tag' => 'epreis'
                 },
                 {
+                  'attrs' => {},
                   'children' => [
                     '19.99'
                   ],
                   'tag' => 'monatlich'
                 },
                 {
+                  'attrs' => {},
                   'children' => [
                     '59.97'
                   ],
                   'tag' => 'quartal'
                 },
                 {
+                  'attrs' => {},
                   'children' => [
                     '239.88'
                   ],
@@ -605,34 +712,41 @@ $VAR1 = {
           'tag' => 'vserver_medium'
         },
         {
+          'attrs' => {},
           'children' => [
             {
+              'attrs' => {},
               'children' => [
                 'VServer Highend'
               ],
               'tag' => 'name'
             },
             {
+              'attrs' => {},
               'children' => [
                 {
+                  'attrs' => {},
                   'children' => [
                     '14.99'
                   ],
                   'tag' => 'epreis'
                 },
                 {
+                  'attrs' => {},
                   'children' => [
                     '24.99'
                   ],
                   'tag' => 'monatlich'
                 },
                 {
+                  'attrs' => {},
                   'children' => [
                     '74.97'
                   ],
                   'tag' => 'quartal'
                 },
                 {
+                  'attrs' => {},
                   'children' => [
                     '299.88'
                   ],
@@ -648,50 +762,63 @@ $VAR1 = {
       'tag' => 'vserver'
     },
     {
+      'attrs' => {},
       'children' => [
         {
+          'attrs' => {},
           'children' => [
             '0.89'
           ],
           'tag' => 'trafficpreis'
         },
         {
+          'attrs' => {},
           'children' => [
             '9.99'
           ],
           'tag' => 'opt_backup'
         },
         {
+          'attrs' => {},
           'children' => [
             '0.99'
           ],
           'tag' => 'opt_backup_gb'
         },
         {
+          'attrs' => {},
           'children' => [
             {
+              'attrs' => {},
               'children' => [
                 '23,-'
               ],
               'tag' => 'opt_raid'
             },
             {
+              'attrs' => {},
               'children' => [
                 '7,-'
               ],
               'tag' => 'opt_ram'
             },
             {
+              'attrs' => {},
               'children' => [
                 {
+                  'attrs' => {
+                    'length' => '12'
+                  },
                   'children' => [
                     {
+                      'attrs' => {},
                       'children' => [
                         '87,-'
                       ],
                       'tag' => 'preis'
                     },
                     {
+                      'attrs' => {},
                       'children' => [
                         '199,-'
                       ],
@@ -701,14 +828,19 @@ $VAR1 = {
                   'tag' => 'interval'
                 },
                 {
+                  'attrs' => {
+                    'length' => '24'
+                  },
                   'children' => [
                     {
+                      'attrs' => {},
                       'children' => [
                         '74,-'
                       ],
                       'tag' => 'preis'
                     },
                     {
+                      'attrs' => {},
                       'children' => [
                         '99,-'
                       ],
@@ -718,14 +850,19 @@ $VAR1 = {
                   'tag' => 'interval'
                 },
                 {
+                  'attrs' => {
+                    'length' => '36'
+                  },
                   'children' => [
                     {
+                      'attrs' => {},
                       'children' => [
                         '69,-'
                       ],
                       'tag' => 'preis'
                     },
                     {
+                      'attrs' => {},
                       'children' => [
                         '0,-'
                       ],
@@ -741,30 +878,39 @@ $VAR1 = {
           'tag' => 'medium'
         },
         {
+          'attrs' => {},
           'children' => [
             {
+              'attrs' => {},
               'children' => [
                 '23,-'
               ],
               'tag' => 'opt_raid'
             },
             {
+              'attrs' => {},
               'children' => [
                 '13,-'
               ],
               'tag' => 'opt_ram'
             },
             {
+              'attrs' => {},
               'children' => [
                 {
+                  'attrs' => {
+                    'length' => '12'
+                  },
                   'children' => [
                     {
+                      'attrs' => {},
                       'children' => [
                         '157,-'
                       ],
                       'tag' => 'preis'
                     },
                     {
+                      'attrs' => {},
                       'children' => [
                         '199,-'
                       ],
@@ -774,14 +920,19 @@ $VAR1 = {
                   'tag' => 'interval'
                 },
                 {
+                  'attrs' => {
+                    'length' => '24'
+                  },
                   'children' => [
                     {
+                      'attrs' => {},
                       'children' => [
                         '136,-'
                       ],
                       'tag' => 'preis'
                     },
                     {
+                      'attrs' => {},
                       'children' => [
                         '99,-'
                       ],
@@ -791,14 +942,19 @@ $VAR1 = {
                   'tag' => 'interval'
                 },
                 {
+                  'attrs' => {
+                    'length' => '36'
+                  },
                   'children' => [
                     {
+                      'attrs' => {},
                       'children' => [
                         '129,-'
                       ],
                       'tag' => 'preis'
                     },
                     {
+                      'attrs' => {},
                       'children' => [
                         '0,-'
                       ],
@@ -814,30 +970,39 @@ $VAR1 = {
           'tag' => 'highend'
         },
         {
+          'attrs' => {},
           'children' => [
             {
+              'attrs' => {},
               'children' => [
                 '23,-'
               ],
               'tag' => 'opt_raid'
             },
             {
+              'attrs' => {},
               'children' => [
                 '19,-'
               ],
               'tag' => 'opt_ram'
             },
             {
+              'attrs' => {},
               'children' => [
                 {
+                  'attrs' => {
+                    'length' => '12'
+                  },
                   'children' => [
                     {
+                      'attrs' => {},
                       'children' => [
                         '181,-'
                       ],
                       'tag' => 'preis'
                     },
                     {
+                      'attrs' => {},
                       'children' => [
                         '199,-'
                       ],
@@ -847,14 +1012,19 @@ $VAR1 = {
                   'tag' => 'interval'
                 },
                 {
+                  'attrs' => {
+                    'length' => '24'
+                  },
                   'children' => [
                     {
+                      'attrs' => {},
                       'children' => [
                         '157,-'
                       ],
                       'tag' => 'preis'
                     },
                     {
+                      'attrs' => {},
                       'children' => [
                         '99,-'
                       ],
@@ -864,14 +1034,19 @@ $VAR1 = {
                   'tag' => 'interval'
                 },
                 {
+                  'attrs' => {
+                    'length' => '36'
+                  },
                   'children' => [
                     {
+                      'attrs' => {},
                       'children' => [
                         '149,-'
                       ],
                       'tag' => 'preis'
                     },
                     {
+                      'attrs' => {},
                       'children' => [
                         '0,-'
                       ],
@@ -887,18 +1062,25 @@ $VAR1 = {
           'tag' => 'business'
         },
         {
+          'attrs' => {},
           'children' => [
             {
+              'attrs' => {},
               'children' => [
                 {
+                  'attrs' => {
+                    'length' => '12'
+                  },
                   'children' => [
                     {
+                      'attrs' => {},
                       'children' => [
                         '393,-'
                       ],
                       'tag' => 'preis'
                     },
                     {
+                      'attrs' => {},
                       'children' => [
                         '399,-'
                       ],
@@ -908,14 +1090,19 @@ $VAR1 = {
                   'tag' => 'interval'
                 },
                 {
+                  'attrs' => {
+                    'length' => '24'
+                  },
                   'children' => [
                     {
+                      'attrs' => {},
                       'children' => [
                         '308,-'
                       ],
                       'tag' => 'preis'
                     },
                     {
+                      'attrs' => {},
                       'children' => [
                         '199,-'
                       ],
@@ -925,14 +1112,19 @@ $VAR1 = {
                   'tag' => 'interval'
                 },
                 {
+                  'attrs' => {
+                    'length' => '36'
+                  },
                   'children' => [
                     {
+                      'attrs' => {},
                       'children' => [
                         '279,-'
                       ],
                       'tag' => 'preis'
                     },
                     {
+                      'attrs' => {},
                       'children' => [
                         '0,-'
                       ],
@@ -948,18 +1140,25 @@ $VAR1 = {
           'tag' => 'expert'
         },
         {
+          'attrs' => {},
           'children' => [
             {
+              'attrs' => {},
               'children' => [
                 {
+                  'attrs' => {
+                    'length' => '12'
+                  },
                   'children' => [
                     {
+                      'attrs' => {},
                       'children' => [
                         '608,-'
                       ],
                       'tag' => 'preis'
                     },
                     {
+                      'attrs' => {},
                       'children' => [
                         '399,-'
                       ],
@@ -969,14 +1168,19 @@ $VAR1 = {
                   'tag' => 'interval'
                 },
                 {
+                  'attrs' => {
+                    'length' => '24'
+                  },
                   'children' => [
                     {
+                      'attrs' => {},
                       'children' => [
                         '452,-'
                       ],
                       'tag' => 'preis'
                     },
                     {
+                      'attrs' => {},
                       'children' => [
                         '199,-'
                       ],
@@ -986,14 +1190,19 @@ $VAR1 = {
                   'tag' => 'interval'
                 },
                 {
+                  'attrs' => {
+                    'length' => '36'
+                  },
                   'children' => [
                     {
+                      'attrs' => {},
                       'children' => [
                         '399,-'
                       ],
                       'tag' => 'preis'
                     },
                     {
+                      'attrs' => {},
                       'children' => [
                         '0,-'
                       ],
@@ -1012,50 +1221,63 @@ $VAR1 = {
       'tag' => 'root-server'
     },
     {
+      'attrs' => {},
       'children' => [
         {
+          'attrs' => {},
           'children' => [
             '0.89'
           ],
           'tag' => 'trafficpreis'
         },
         {
+          'attrs' => {},
           'children' => [
             'inkl.'
           ],
           'tag' => 'opt_servercon'
         },
         {
+          'attrs' => {},
           'children' => [
             '29,-'
           ],
           'tag' => 'opt_backup'
         },
         {
+          'attrs' => {},
           'children' => [
             {
+              'attrs' => {},
               'children' => [
                 '-'
               ],
               'tag' => 'opt_raid'
             },
             {
+              'attrs' => {},
               'children' => [
                 '14,90'
               ],
               'tag' => 'opt_ram'
             },
             {
+              'attrs' => {},
               'children' => [
                 {
+                  'attrs' => {
+                    'length' => '12'
+                  },
                   'children' => [
                     {
+                      'attrs' => {},
                       'children' => [
                         '98,-'
                       ],
                       'tag' => 'preis'
                     },
                     {
+                      'attrs' => {},
                       'children' => [
                         '79,-'
                       ],
@@ -1065,14 +1287,19 @@ $VAR1 = {
                   'tag' => 'interval'
                 },
                 {
+                  'attrs' => {
+                    'length' => '24'
+                  },
                   'children' => [
                     {
+                      'attrs' => {},
                       'children' => [
                         '88,-'
                       ],
                       'tag' => 'preis'
                     },
                     {
+                      'attrs' => {},
                       'children' => [
                         '49,-'
                       ],
@@ -1082,14 +1309,19 @@ $VAR1 = {
                   'tag' => 'interval'
                 },
                 {
+                  'attrs' => {
+                    'length' => '36'
+                  },
                   'children' => [
                     {
+                      'attrs' => {},
                       'children' => [
                         '78,-'
                       ],
                       'tag' => 'preis'
                     },
                     {
+                      'attrs' => {},
                       'children' => [
                         '0,-'
                       ],
@@ -1105,18 +1337,25 @@ $VAR1 = {
           'tag' => 'starter'
         },
         {
+          'attrs' => {},
           'children' => [
             {
+              'attrs' => {},
               'children' => [
                 {
+                  'attrs' => {
+                    'length' => '12'
+                  },
                   'children' => [
                     {
+                      'attrs' => {},
                       'children' => [
                         '116,-'
                       ],
                       'tag' => 'preis'
                     },
                     {
+                      'attrs' => {},
                       'children' => [
                         '199,-'
                       ],
@@ -1126,14 +1365,19 @@ $VAR1 = {
                   'tag' => 'interval'
                 },
                 {
+                  'attrs' => {
+                    'length' => '24'
+                  },
                   'children' => [
                     {
+                      'attrs' => {},
                       'children' => [
                         '103,-'
                       ],
                       'tag' => 'preis'
                     },
                     {
+                      'attrs' => {},
                       'children' => [
                         '99,-'
                       ],
@@ -1143,14 +1387,19 @@ $VAR1 = {
                   'tag' => 'interval'
                 },
                 {
+                  'attrs' => {
+                    'length' => '36'
+                  },
                   'children' => [
                     {
+                      'attrs' => {},
                       'children' => [
                         '98,-'
                       ],
                       'tag' => 'preis'
                     },
                     {
+                      'attrs' => {},
                       'children' => [
                         '0,-'
                       ],
@@ -1166,18 +1415,25 @@ $VAR1 = {
           'tag' => 'medium'
         },
         {
+          'attrs' => {},
           'children' => [
             {
+              'attrs' => {},
               'children' => [
                 {
+                  'attrs' => {
+                    'length' => '12'
+                  },
                   'children' => [
                     {
+                      'attrs' => {},
                       'children' => [
                         '186,-'
                       ],
                       'tag' => 'preis'
                     },
                     {
+                      'attrs' => {},
                       'children' => [
                         '199,-'
                       ],
@@ -1187,14 +1443,19 @@ $VAR1 = {
                   'tag' => 'interval'
                 },
                 {
+                  'attrs' => {
+                    'length' => '24'
+                  },
                   'children' => [
                     {
+                      'attrs' => {},
                       'children' => [
                         '165,-'
                       ],
                       'tag' => 'preis'
                     },
                     {
+                      'attrs' => {},
                       'children' => [
                         '99,-'
                       ],
@@ -1204,14 +1465,19 @@ $VAR1 = {
                   'tag' => 'interval'
                 },
                 {
+                  'attrs' => {
+                    'length' => '36'
+                  },
                   'children' => [
                     {
+                      'attrs' => {},
                       'children' => [
                         '158,-'
                       ],
                       'tag' => 'preis'
                     },
                     {
+                      'attrs' => {},
                       'children' => [
                         '0,-'
                       ],
@@ -1227,18 +1493,25 @@ $VAR1 = {
           'tag' => 'highend'
         },
         {
+          'attrs' => {},
           'children' => [
             {
+              'attrs' => {},
               'children' => [
                 {
+                  'attrs' => {
+                    'length' => '12'
+                  },
                   'children' => [
                     {
+                      'attrs' => {},
                       'children' => [
                         '210,-'
                       ],
                       'tag' => 'preis'
                     },
                     {
+                      'attrs' => {},
                       'children' => [
                         '199,-'
                       ],
@@ -1248,14 +1521,19 @@ $VAR1 = {
                   'tag' => 'interval'
                 },
                 {
+                  'attrs' => {
+                    'length' => '24'
+                  },
                   'children' => [
                     {
+                      'attrs' => {},
                       'children' => [
                         '186,-'
                       ],
                       'tag' => 'preis'
                     },
                     {
+                      'attrs' => {},
                       'children' => [
                         '99,-'
                       ],
@@ -1265,14 +1543,19 @@ $VAR1 = {
                   'tag' => 'interval'
                 },
                 {
+                  'attrs' => {
+                    'length' => '36'
+                  },
                   'children' => [
                     {
+                      'attrs' => {},
                       'children' => [
                         '178,-'
                       ],
                       'tag' => 'preis'
                     },
                     {
+                      'attrs' => {},
                       'children' => [
                         '0,-'
                       ],
@@ -1288,48 +1571,60 @@ $VAR1 = {
           'tag' => 'business'
         },
         {
+          'attrs' => {},
           'children' => [
             {
+              'attrs' => {},
               'children' => [
                 '0,-'
               ],
               'tag' => 'sehr_niedrig'
             },
             {
+              'attrs' => {},
               'children' => [
                 '28,-'
               ],
               'tag' => 'niedrig'
             },
             {
+              'attrs' => {},
               'children' => [
                 '268,-'
               ],
               'tag' => 'mittel'
             },
             {
+              'attrs' => {},
               'children' => [
                 '426,-'
               ],
               'tag' => 'hoch'
             },
             {
+              'attrs' => {},
               'children' => [
                 '925,-'
               ],
               'tag' => 'sehr_hoch'
             },
             {
+              'attrs' => {},
               'children' => [
                 {
+                  'attrs' => {
+                    'length' => '12'
+                  },
                   'children' => [
                     {
+                      'attrs' => {},
                       'children' => [
                         '422,-'
                       ],
                       'tag' => 'preis'
                     },
                     {
+                      'attrs' => {},
                       'children' => [
                         '399,-'
                       ],
@@ -1339,14 +1634,19 @@ $VAR1 = {
                   'tag' => 'interval'
                 },
                 {
+                  'attrs' => {
+                    'length' => '24'
+                  },
                   'children' => [
                     {
+                      'attrs' => {},
                       'children' => [
                         '337,-'
                       ],
                       'tag' => 'preis'
                     },
                     {
+                      'attrs' => {},
                       'children' => [
                         '199,-'
                       ],
@@ -1356,14 +1656,19 @@ $VAR1 = {
                   'tag' => 'interval'
                 },
                 {
+                  'attrs' => {
+                    'length' => '36'
+                  },
                   'children' => [
                     {
+                      'attrs' => {},
                       'children' => [
                         '308,-'
                       ],
                       'tag' => 'preis'
                     },
                     {
+                      'attrs' => {},
                       'children' => [
                         '0,-'
                       ],
@@ -1379,48 +1684,60 @@ $VAR1 = {
           'tag' => 'expert'
         },
         {
+          'attrs' => {},
           'children' => [
             {
+              'attrs' => {},
               'children' => [
                 '0,-'
               ],
               'tag' => 'sehr_niedrig'
             },
             {
+              'attrs' => {},
               'children' => [
                 '28,-'
               ],
               'tag' => 'niedrig'
             },
             {
+              'attrs' => {},
               'children' => [
                 '279,-'
               ],
               'tag' => 'mittel'
             },
             {
+              'attrs' => {},
               'children' => [
                 '437,-'
               ],
               'tag' => 'hoch'
             },
             {
+              'attrs' => {},
               'children' => [
                 '936,-'
               ],
               'tag' => 'sehr_hoch'
             },
             {
+              'attrs' => {},
               'children' => [
                 {
+                  'attrs' => {
+                    'length' => '12'
+                  },
                   'children' => [
                     {
+                      'attrs' => {},
                       'children' => [
                         '637,-'
                       ],
                       'tag' => 'preis'
                     },
                     {
+                      'attrs' => {},
                       'children' => [
                         '399,-'
                       ],
@@ -1430,14 +1747,19 @@ $VAR1 = {
                   'tag' => 'interval'
                 },
                 {
+                  'attrs' => {
+                    'length' => '24'
+                  },
                   'children' => [
                     {
+                      'attrs' => {},
                       'children' => [
                         '481,-'
                       ],
                       'tag' => 'preis'
                     },
                     {
+                      'attrs' => {},
                       'children' => [
                         '199,-'
                       ],
@@ -1447,14 +1769,19 @@ $VAR1 = {
                   'tag' => 'interval'
                 },
                 {
+                  'attrs' => {
+                    'length' => '36'
+                  },
                   'children' => [
                     {
+                      'attrs' => {},
                       'children' => [
                         '428,-'
                       ],
                       'tag' => 'preis'
                     },
                     {
+                      'attrs' => {},
                       'children' => [
                         '0,-'
                       ],
@@ -1473,52 +1800,62 @@ $VAR1 = {
       'tag' => 'managed-server'
     },
     {
+      'attrs' => {},
       'children' => [
         {
+          'attrs' => {},
           'children' => [
             {
+              'attrs' => {},
               'children' => [
                 '0.39'
               ],
               'tag' => 'trafficpreis'
             },
             {
+              'attrs' => {},
               'children' => [
                 '29,-'
               ],
               'tag' => 'preis'
             },
             {
+              'attrs' => {},
               'children' => [
                 '49,-'
               ],
               'tag' => 'epreis'
             },
             {
+              'attrs' => {},
               'children' => [
                 '5,-'
               ],
               'tag' => 'opt_strom'
             },
             {
+              'attrs' => {},
               'children' => [
                 '5,-'
               ],
               'tag' => 'opt_lan'
             },
             {
+              'attrs' => {},
               'children' => [
                 '19,-'
               ],
               'tag' => 'opt_ripe'
             },
             {
+              'attrs' => {},
               'children' => [
                 '56,-'
               ],
               'tag' => 'opt_2he'
             },
             {
+              'attrs' => {},
               'children' => [
                 '109,-'
               ],
@@ -1528,20 +1865,24 @@ $VAR1 = {
           'tag' => 'server'
         },
         {
+          'attrs' => {},
           'children' => [
             {
+              'attrs' => {},
               'children' => [
                 '0.39'
               ],
               'tag' => 'trafficpreis'
             },
             {
+              'attrs' => {},
               'children' => [
                 '899,-'
               ],
               'tag' => 'preis'
             },
             {
+              'attrs' => {},
               'children' => [
                 '899,-'
               ],
@@ -1554,28 +1895,34 @@ $VAR1 = {
       'tag' => 'housing'
     },
     {
+      'attrs' => {},
       'children' => [
         {
+          'attrs' => {},
           'children' => [
             {
+              'attrs' => {},
               'children' => [
                 '49,-'
               ],
               'tag' => 'trafficmbitpreis'
             },
             {
+              'attrs' => {},
               'children' => [
                 '0.69'
               ],
               'tag' => 'trafficpreis'
             },
             {
+              'attrs' => {},
               'children' => [
                 '349,-'
               ],
               'tag' => 'preis'
             },
             {
+              'attrs' => {},
               'children' => [
                 '299,-'
               ],
@@ -1585,26 +1932,31 @@ $VAR1 = {
           'tag' => 'fullrack'
         },
         {
+          'attrs' => {},
           'children' => [
             {
+              'attrs' => {},
               'children' => [
                 '59,-'
               ],
               'tag' => 'trafficmbitpreis'
             },
             {
+              'attrs' => {},
               'children' => [
                 '0.79'
               ],
               'tag' => 'trafficpreis'
             },
             {
+              'attrs' => {},
               'children' => [
                 '199,-'
               ],
               'tag' => 'preis'
             },
             {
+              'attrs' => {},
               'children' => [
                 '199,-'
               ],
@@ -1617,6 +1969,7 @@ $VAR1 = {
       'tag' => 'rackhousing'
     },
     {
+      'attrs' => {},
       'children' => [
         '19'
       ],
