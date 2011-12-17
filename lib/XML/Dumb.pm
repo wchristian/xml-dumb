@@ -98,7 +98,12 @@ sub try_children_as_keys_by_tag {
     return if !grep { $_->( $elt ) } @{ $self->children_as_keys_by_tag };
 
     die "tag with children as keys cannot have additional atts" if $elt->has_atts;
-    $data->{ $_->tag } = $self->elt_to_perl( $_ ) for $elt->children;
+    for my $child ( $elt->children ) {
+        my $key = $child->tag;
+        die "key '$key' was already set on data element" if exists $data->{$key};
+        $data->{$key} = $self->elt_to_perl( $child );
+    }
+
     return 1;
 }
 
