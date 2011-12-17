@@ -51,6 +51,7 @@ sub to_perl {
 
 sub elt_to_perl {
     my ( $self, $elt, $opt ) = @_;
+    $opt ||= {};
     return $self->complex_elt_to_perl( $elt, $opt ) if $elt->is_elt;
     return $elt->text if !$elt->is_field;
     die "unknown element";
@@ -106,6 +107,8 @@ sub try_children_as_keys_by_tag {
         $data->{$key} = $self->elt_to_perl( $child, { no_tag_key => 1 } );
     }
 
+    $opt->{no_atts} = 1;
+
     return 1;
 }
 
@@ -125,6 +128,8 @@ sub try_children_as_keys_by_att {
         $data->{$key} = $self->elt_to_perl( $child );
     }
 
+    $opt->{no_atts} = 1;
+
     return 1;
 }
 
@@ -139,6 +144,8 @@ sub store_children_in_key {
 
 sub handle_atts {
     my ( $self, $data, $opt, $elt ) = @_;
+
+    return if $opt->{no_atts};
 
     return if $self->try_atts_as_keys( $data, $opt, $elt );
 

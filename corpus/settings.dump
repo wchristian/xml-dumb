@@ -1,10 +1,8 @@
 $VAR1 = {
-  'atts' => {},
   'domains' => {
     'at' => {
       'preis' => '19'
     },
-    'atts' => {},
     'be' => {
       'preis' => '19'
     },
@@ -284,7 +282,6 @@ $VAR1 = {
               ],
               'tag' => 'interval'
             },
-            'atts' => {},
             'tag' => 'zahlung'
           }
         ],
@@ -354,7 +351,6 @@ $VAR1 = {
               ],
               'tag' => 'interval'
             },
-            'atts' => {},
             'tag' => 'zahlung'
           }
         ],
@@ -424,7 +420,6 @@ $VAR1 = {
               ],
               'tag' => 'interval'
             },
-            'atts' => {},
             'tag' => 'zahlung'
           }
         ],
@@ -494,7 +489,6 @@ $VAR1 = {
               ],
               'tag' => 'interval'
             },
-            'atts' => {},
             'tag' => 'zahlung'
           }
         ],
@@ -599,7 +593,6 @@ $VAR1 = {
               ],
               'tag' => 'interval'
             },
-            'atts' => {},
             'tag' => 'zahlung'
           }
         ],
@@ -704,7 +697,6 @@ $VAR1 = {
               ],
               'tag' => 'interval'
             },
-            'atts' => {},
             'tag' => 'zahlung'
           }
         ],
@@ -893,7 +885,6 @@ $VAR1 = {
               ],
               'tag' => 'interval'
             },
-            'atts' => {},
             'tag' => 'zahlung'
           }
         ],
@@ -977,7 +968,6 @@ $VAR1 = {
               ],
               'tag' => 'interval'
             },
-            'atts' => {},
             'tag' => 'zahlung'
           }
         ],
@@ -1061,7 +1051,6 @@ $VAR1 = {
               ],
               'tag' => 'interval'
             },
-            'atts' => {},
             'tag' => 'zahlung'
           }
         ],
@@ -1131,7 +1120,6 @@ $VAR1 = {
               ],
               'tag' => 'interval'
             },
-            'atts' => {},
             'tag' => 'zahlung'
           }
         ],
@@ -1201,7 +1189,6 @@ $VAR1 = {
               ],
               'tag' => 'interval'
             },
-            'atts' => {},
             'tag' => 'zahlung'
           }
         ],
