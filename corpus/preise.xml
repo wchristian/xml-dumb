@@ -1,0 +1,359 @@
+<domains>
+    <de sort="1">8</de>
+    <eu>15</eu>
+    <at>19</at>
+    <co.at>19</co.at>
+    <or.at>19</or.at>
+    <com>12</com>
+    <net>12</net>
+    <org>12</org>
+    <info>12</info>
+    <biz>12</biz>
+    <be>19</be>
+    <bz>56</bz>
+    <cc>29</cc>
+    <ch>29</ch>
+    <co.uk>21</co.uk>
+    <in>29</in>
+        <it>79</it>
+    <gs>47</gs>
+    <jp>149</jp>
+    <li>29</li>
+    <name>14</name>
+    <pl>59</pl>
+    <ru>59</ru>
+    <se>55</se>
+    <tk>33</tk>
+    <tv>38</tv>
+    <vg>47</vg>
+    <ws>19</ws>
+</domains>
+
+<webspace>
+    <zusatzgb>1.99</zusatzgb>
+    <starter>
+        <name>Starter</name>
+
+        <zahlung>
+            <epreis>4.99</epreis>
+            <apreis>0.99</apreis>
+            <jaehrlich>11.88</jaehrlich>
+        </zahlung>
+    </starter>
+    <medium>
+        <name>Medium</name>
+        <features>
+            <![CDATA[<input type="checkbox" name="eigenes SSL-Zertifikat und eine eigene IP für nur 5,99 / Monat" value="chk_1">eigenes SSL-Zertifikat und eine eigene IP für nur 5,99 &euro; / Monat]]>
+        </features>
+
+        <zahlung>
+            <epreis>9.99</epreis>
+            <apreis>4.99</apreis>
+            <monatlich>4.99</monatlich>
+            <quartal>14.97</quartal>
+            <jaehrlich>59.88</jaehrlich>
+        </zahlung>
+    </medium>
+    <highend>
+        <name>Highend</name>
+        <features>
+            <![CDATA[<input type="checkbox" name="eigene SSL-Zertifikat und eine eigene IP für nur 5,99 / Monat" value="chk_1">eigenes SSL-Zertifikat und eine eigene IP für nur 5,99 &euro; / Monat]]>
+        </features>
+
+        <zahlung>
+            <epreis>9.99</epreis>
+            <apreis>9.99</apreis>
+            <monatlich>9.99</monatlich>
+            <quartal>29.97</quartal>
+            <jaehrlich>119.88</jaehrlich>
+        </zahlung>
+    </highend>
+    <business>
+        <name>Business</name>
+        <features>
+            <![CDATA[<input type="checkbox" name="eigenes SSL-Zertifikat und eine eigene IP für nur 5,99 / Monat" value="chk_1">eigenes SSL-Zertifikat und eine eigene IP für nur 5,99 &euro; / Monat
+            <br />
+            <input type="checkbox" name="+ 24/7 für Notfall-Recovery 9,99 Euro / Monat" value="chk_1"> 24/7 für Notfall-Recovery 9,99 &euro; / Monat]]>
+        </features>
+
+        <zahlung>
+            <epreis>9.99</epreis>
+            <apreis>19.99</apreis>
+            <monatlich>19.99</monatlich>
+            <quartal>59.97</quartal>
+            <jaehrlich>239.88</jaehrlich>
+        </zahlung>
+    </business>
+    <expert>
+        <name>Expert</name>
+        <features>
+            <![CDATA[<input type="checkbox" name="+ eigenes SSL-Zertifikat und eine eigene IP für nur 5,99 Euro / Monat" value="chk_1"> eigenes SSL-Zertifikat und eine eigene IP für nur 5,99 &euro; / Monat
+            <br />
+            <input type="checkbox" name="+ 24/7 für Notfall-Recovery 9,99 Euro / Monat" value="chk_1"> 24/7 für Notfall-Recovery 9,99 &euro; / Monat]]>
+        </features>
+
+        <zahlung>
+            <epreis>14.99</epreis>
+            <apreis>39.99</apreis>
+            <monatlich>39.99</monatlich>
+            <quartal>119.97</quartal>
+            <jaehrlich>479.88</jaehrlich>
+
+        </zahlung>
+    </expert>
+
+    <shopware>
+        <name>Shopware</name>
+                <hidden>1</hidden>
+        <features>
+            <![CDATA[<input type="checkbox" name="eigenes SSL-Zertifikat und eine eigene IP für nur 5,99 / Monat" value="chk_1">eigenes SSL-Zertifikat und eine eigene IP für nur 5,99 &euro; / Monat]]>
+        </features>
+
+        <zahlung>
+            <epreis>0.00</epreis>
+            <apreis>29.75</apreis>
+            <monatlich>29.75</monatlich>
+            <quartal>89.25</quartal>
+            <jaehrlich>357.00</jaehrlich>
+
+        </zahlung>
+    </shopware>
+
+    <domainpaket>
+        <name>Domain Paket</name>
+
+        <zahlung>
+            <epreis>0.00</epreis>
+            <apreis>1.00</apreis>
+            <jaehrlich>1.00</jaehrlich>
+        </zahlung>
+    </domainpaket>
+
+</webspace>
+
+<vserver>
+    <vserver_starter>
+        <name>VServer Starter</name>
+        <zahlung>
+            <epreis>14.99</epreis>
+            <monatlich>14.99</monatlich>
+            <quartal>44.97</quartal>
+            <jaehrlich>179.88</jaehrlich>
+        </zahlung>
+    </vserver_starter>
+
+    <vserver_medium>
+        <name>VServer Medium</name>
+        <zahlung>
+            <epreis>14.99</epreis>
+            <monatlich>19.99</monatlich>
+            <quartal>59.97</quartal>
+            <jaehrlich>239.88</jaehrlich>
+        </zahlung>
+    </vserver_medium>
+
+    <vserver_highend>
+        <name>VServer Highend</name>
+
+        <zahlung>
+            <epreis>14.99</epreis>
+            <monatlich>24.99</monatlich>
+            <quartal>74.97</quartal>
+            <jaehrlich>299.88</jaehrlich>
+        </zahlung>
+    </vserver_highend>
+</vserver>
+
+<root-server>
+    <trafficpreis>0.89</trafficpreis>
+    <opt_backup>9.99</opt_backup>
+    <opt_backup_gb>0.99</opt_backup_gb>
+
+   <medium>
+        <opt_raid>23,-</opt_raid>
+        <opt_ram>7,-</opt_ram>
+
+        <zahlung>
+            <interval length="12"><preis>87,-</preis>
+                <setup>199,-</setup></interval>
+            <interval length="24"><preis>74,-</preis>
+                <setup>99,-</setup></interval>
+            <interval length="36"><preis>69,-</preis>
+                <setup>0,-</setup></interval>
+        </zahlung>
+    </medium>
+
+    <highend>
+        <opt_raid>23,-</opt_raid>
+        <opt_ram>13,-</opt_ram>
+
+        <zahlung>
+            <interval length="12"><preis>157,-</preis>
+                <setup>199,-</setup></interval>
+            <interval length="24"><preis>136,-</preis>
+                <setup>99,-</setup></interval>
+            <interval length="36"><preis>129,-</preis>
+                <setup>0,-</setup></interval>
+        </zahlung>
+    </highend>
+
+    <business>
+        <opt_raid>23,-</opt_raid>
+        <opt_ram>19,-</opt_ram>
+
+        <zahlung>
+            <interval length="12"><preis>181,-</preis>
+                <setup>199,-</setup></interval>
+            <interval length="24"><preis>157,-</preis>
+                <setup>99,-</setup></interval>
+            <interval length="36"><preis>149,-</preis>
+                <setup>0,-</setup></interval>
+        </zahlung>
+    </business>
+
+    <expert>
+        <zahlung>
+            <interval length="12"><preis>393,-</preis>
+                <setup>399,-</setup></interval>
+            <interval length="24"><preis>308,-</preis>
+                <setup>199,-</setup></interval>
+            <interval length="36"><preis>279,-</preis>
+                <setup>0,-</setup></interval>
+        </zahlung>
+    </expert>
+
+    <enterprise>
+        <zahlung>
+            <interval length="12"><preis>608,-</preis>
+                <setup>399,-</setup></interval>
+            <interval length="24"><preis>452,-</preis>
+                <setup>199,-</setup></interval>
+            <interval length="36"><preis>399,-</preis>
+                <setup>0,-</setup></interval>
+        </zahlung>
+    </enterprise>
+</root-server>
+
+<managed-server>
+    <trafficpreis>0.89</trafficpreis>
+    <opt_servercon>inkl.</opt_servercon>
+    <opt_backup>29,-</opt_backup>
+
+    <starter>
+        <opt_raid>-</opt_raid>
+        <opt_ram>14,90</opt_ram>
+
+        <zahlung>
+            <interval length="12"><preis>98,-</preis>
+                <setup>79,-</setup></interval>
+            <interval length="24"><preis>88,-</preis>
+                <setup>49,-</setup></interval>
+            <interval length="36"><preis>78,-</preis>
+                <setup>0,-</setup></interval>
+        </zahlung>
+    </starter>
+
+    <medium>
+        <zahlung>
+            <interval length="12"><preis>116,-</preis>
+                <setup>199,-</setup></interval>
+            <interval length="24"><preis>103,-</preis>
+                <setup>99,-</setup></interval>
+            <interval length="36"><preis>98,-</preis>
+                <setup>0,-</setup></interval>
+        </zahlung>
+    </medium>
+
+    <highend>
+        <zahlung>
+            <interval length="12"><preis>186,-</preis>
+                <setup>199,-</setup></interval>
+            <interval length="24"><preis>165,-</preis>
+                <setup>99,-</setup></interval>
+            <interval length="36"><preis>158,-</preis>
+                <setup>0,-</setup></interval>
+        </zahlung>
+    </highend>
+
+    <business>
+        <zahlung>
+            <interval length="12"><preis>210,-</preis>
+                <setup>199,-</setup></interval>
+            <interval length="24"><preis>186,-</preis>
+                <setup>99,-</setup></interval>
+            <interval length="36"><preis>178,-</preis>
+                <setup>0,-</setup></interval>
+        </zahlung>
+    </business>
+
+    <expert>
+        <sehr_niedrig>0,-</sehr_niedrig>
+        <niedrig>28,-</niedrig>
+        <mittel>268,-</mittel>
+        <hoch>426,-</hoch>
+        <sehr_hoch>925,-</sehr_hoch>
+
+        <zahlung>
+            <interval length="12"><preis>422,-</preis>
+                <setup>399,-</setup></interval>
+            <interval length="24"><preis>337,-</preis>
+                <setup>199,-</setup></interval>
+            <interval length="36"><preis>308,-</preis>
+                <setup>0,-</setup></interval>
+        </zahlung>
+    </expert>
+
+    <enterprise>
+        <sehr_niedrig>0,-</sehr_niedrig>
+        <niedrig>28,-</niedrig>
+        <mittel>279,-</mittel>
+        <hoch>437,-</hoch>
+        <sehr_hoch>936,-</sehr_hoch>
+
+        <zahlung>
+            <interval length="12"><preis>637,-</preis>
+                <setup>399,-</setup></interval>
+            <interval length="24"><preis>481,-</preis>
+                <setup>199,-</setup></interval>
+            <interval length="36"><preis>428,-</preis>
+                <setup>0,-</setup></interval>
+        </zahlung>
+    </enterprise>
+
+</managed-server>
+
+<housing>
+    <server>
+        <trafficpreis>0.39</trafficpreis>
+        <preis>29,-</preis>
+        <epreis>49,-</epreis>
+                <opt_strom>5,-</opt_strom>
+                <opt_lan>5,-</opt_lan>
+         <opt_ripe>19,-</opt_ripe>
+            <opt_2he>56,-</opt_2he>
+            <opt_4he>109,-</opt_4he>
+    </server>
+    <rack>
+        <trafficpreis>0.39</trafficpreis>
+        <preis>899,-</preis>
+        <epreis>899,-</epreis>
+    </rack>
+</housing>
+
+
+<rackhousing>
+    <fullrack>
+    <trafficmbitpreis>49,-</trafficmbitpreis>
+    <trafficpreis>0.69</trafficpreis>
+    <preis>349,-</preis>
+    <epreis>299,-</epreis>
+    </fullrack>
+    <halfrack>
+    <trafficmbitpreis>59,-</trafficmbitpreis>
+    <trafficpreis>0.79</trafficpreis>
+    <preis>199,-</preis>
+    <epreis>199,-</epreis>
+    </halfrack>
+</rackhousing>
+
+<mwst>19</mwst>

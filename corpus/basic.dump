@@ -1,0 +1,1627 @@
+$VAR1 = {
+  'children' => [
+    {
+      'children' => [
+        {
+          'children' => [
+            '8'
+          ],
+          'tag' => 'de'
+        },
+        {
+          'children' => [
+            '15'
+          ],
+          'tag' => 'eu'
+        },
+        {
+          'children' => [
+            '19'
+          ],
+          'tag' => 'at'
+        },
+        {
+          'children' => [
+            '19'
+          ],
+          'tag' => 'co.at'
+        },
+        {
+          'children' => [
+            '19'
+          ],
+          'tag' => 'or.at'
+        },
+        {
+          'children' => [
+            '12'
+          ],
+          'tag' => 'com'
+        },
+        {
+          'children' => [
+            '12'
+          ],
+          'tag' => 'net'
+        },
+        {
+          'children' => [
+            '12'
+          ],
+          'tag' => 'org'
+        },
+        {
+          'children' => [
+            '12'
+          ],
+          'tag' => 'info'
+        },
+        {
+          'children' => [
+            '12'
+          ],
+          'tag' => 'biz'
+        },
+        {
+          'children' => [
+            '19'
+          ],
+          'tag' => 'be'
+        },
+        {
+          'children' => [
+            '56'
+          ],
+          'tag' => 'bz'
+        },
+        {
+          'children' => [
+            '29'
+          ],
+          'tag' => 'cc'
+        },
+        {
+          'children' => [
+            '29'
+          ],
+          'tag' => 'ch'
+        },
+        {
+          'children' => [
+            '21'
+          ],
+          'tag' => 'co.uk'
+        },
+        {
+          'children' => [
+            '29'
+          ],
+          'tag' => 'in'
+        },
+        {
+          'children' => [
+            '79'
+          ],
+          'tag' => 'it'
+        },
+        {
+          'children' => [
+            '47'
+          ],
+          'tag' => 'gs'
+        },
+        {
+          'children' => [
+            '149'
+          ],
+          'tag' => 'jp'
+        },
+        {
+          'children' => [
+            '29'
+          ],
+          'tag' => 'li'
+        },
+        {
+          'children' => [
+            '14'
+          ],
+          'tag' => 'name'
+        },
+        {
+          'children' => [
+            '59'
+          ],
+          'tag' => 'pl'
+        },
+        {
+          'children' => [
+            '59'
+          ],
+          'tag' => 'ru'
+        },
+        {
+          'children' => [
+            '55'
+          ],
+          'tag' => 'se'
+        },
+        {
+          'children' => [
+            '33'
+          ],
+          'tag' => 'tk'
+        },
+        {
+          'children' => [
+            '38'
+          ],
+          'tag' => 'tv'
+        },
+        {
+          'children' => [
+            '47'
+          ],
+          'tag' => 'vg'
+        },
+        {
+          'children' => [
+            '19'
+          ],
+          'tag' => 'ws'
+        }
+      ],
+      'tag' => 'domains'
+    },
+    {
+      'children' => [
+        {
+          'children' => [
+            '1.99'
+          ],
+          'tag' => 'zusatzgb'
+        },
+        {
+          'children' => [
+            {
+              'children' => [
+                'Starter'
+              ],
+              'tag' => 'name'
+            },
+            {
+              'children' => [
+                {
+                  'children' => [
+                    '4.99'
+                  ],
+                  'tag' => 'epreis'
+                },
+                {
+                  'children' => [
+                    '0.99'
+                  ],
+                  'tag' => 'apreis'
+                },
+                {
+                  'children' => [
+                    '11.88'
+                  ],
+                  'tag' => 'jaehrlich'
+                }
+              ],
+              'tag' => 'zahlung'
+            }
+          ],
+          'tag' => 'starter'
+        },
+        {
+          'children' => [
+            {
+              'children' => [
+                'Medium'
+              ],
+              'tag' => 'name'
+            },
+            {
+              'children' => [
+                "<input type=\"checkbox\" name=\"eigenes SSL-Zertifikat und eine eigene IP f\x{fc}r nur 5,99 / Monat\" value=\"chk_1\">eigenes SSL-Zertifikat und eine eigene IP f\x{fc}r nur 5,99 &euro; / Monat"
+              ],
+              'tag' => 'features'
+            },
+            {
+              'children' => [
+                {
+                  'children' => [
+                    '9.99'
+                  ],
+                  'tag' => 'epreis'
+                },
+                {
+                  'children' => [
+                    '4.99'
+                  ],
+                  'tag' => 'apreis'
+                },
+                {
+                  'children' => [
+                    '4.99'
+                  ],
+                  'tag' => 'monatlich'
+                },
+                {
+                  'children' => [
+                    '14.97'
+                  ],
+                  'tag' => 'quartal'
+                },
+                {
+                  'children' => [
+                    '59.88'
+                  ],
+                  'tag' => 'jaehrlich'
+                }
+              ],
+              'tag' => 'zahlung'
+            }
+          ],
+          'tag' => 'medium'
+        },
+        {
+          'children' => [
+            {
+              'children' => [
+                'Highend'
+              ],
+              'tag' => 'name'
+            },
+            {
+              'children' => [
+                "<input type=\"checkbox\" name=\"eigene SSL-Zertifikat und eine eigene IP f\x{fc}r nur 5,99 / Monat\" value=\"chk_1\">eigenes SSL-Zertifikat und eine eigene IP f\x{fc}r nur 5,99 &euro; / Monat"
+              ],
+              'tag' => 'features'
+            },
+            {
+              'children' => [
+                {
+                  'children' => [
+                    '9.99'
+                  ],
+                  'tag' => 'epreis'
+                },
+                {
+                  'children' => [
+                    '9.99'
+                  ],
+                  'tag' => 'apreis'
+                },
+                {
+                  'children' => [
+                    '9.99'
+                  ],
+                  'tag' => 'monatlich'
+                },
+                {
+                  'children' => [
+                    '29.97'
+                  ],
+                  'tag' => 'quartal'
+                },
+                {
+                  'children' => [
+                    '119.88'
+                  ],
+                  'tag' => 'jaehrlich'
+                }
+              ],
+              'tag' => 'zahlung'
+            }
+          ],
+          'tag' => 'highend'
+        },
+        {
+          'children' => [
+            {
+              'children' => [
+                'Business'
+              ],
+              'tag' => 'name'
+            },
+            {
+              'children' => [
+                "<input type=\"checkbox\" name=\"eigenes SSL-Zertifikat und eine eigene IP f\x{fc}r nur 5,99 / Monat\" value=\"chk_1\">eigenes SSL-Zertifikat und eine eigene IP f\x{fc}r nur 5,99 &euro; / Monat
+            <br />
+            <input type=\"checkbox\" name=\"+ 24/7 f\x{fc}r Notfall-Recovery 9,99 Euro / Monat\" value=\"chk_1\"> 24/7 f\x{fc}r Notfall-Recovery 9,99 &euro; / Monat"
+              ],
+              'tag' => 'features'
+            },
+            {
+              'children' => [
+                {
+                  'children' => [
+                    '9.99'
+                  ],
+                  'tag' => 'epreis'
+                },
+                {
+                  'children' => [
+                    '19.99'
+                  ],
+                  'tag' => 'apreis'
+                },
+                {
+                  'children' => [
+                    '19.99'
+                  ],
+                  'tag' => 'monatlich'
+                },
+                {
+                  'children' => [
+                    '59.97'
+                  ],
+                  'tag' => 'quartal'
+                },
+                {
+                  'children' => [
+                    '239.88'
+                  ],
+                  'tag' => 'jaehrlich'
+                }
+              ],
+              'tag' => 'zahlung'
+            }
+          ],
+          'tag' => 'business'
+        },
+        {
+          'children' => [
+            {
+              'children' => [
+                'Expert'
+              ],
+              'tag' => 'name'
+            },
+            {
+              'children' => [
+                "<input type=\"checkbox\" name=\"+ eigenes SSL-Zertifikat und eine eigene IP f\x{fc}r nur 5,99 Euro / Monat\" value=\"chk_1\"> eigenes SSL-Zertifikat und eine eigene IP f\x{fc}r nur 5,99 &euro; / Monat
+            <br />
+            <input type=\"checkbox\" name=\"+ 24/7 f\x{fc}r Notfall-Recovery 9,99 Euro / Monat\" value=\"chk_1\"> 24/7 f\x{fc}r Notfall-Recovery 9,99 &euro; / Monat"
+              ],
+              'tag' => 'features'
+            },
+            {
+              'children' => [
+                {
+                  'children' => [
+                    '14.99'
+                  ],
+                  'tag' => 'epreis'
+                },
+                {
+                  'children' => [
+                    '39.99'
+                  ],
+                  'tag' => 'apreis'
+                },
+                {
+                  'children' => [
+                    '39.99'
+                  ],
+                  'tag' => 'monatlich'
+                },
+                {
+                  'children' => [
+                    '119.97'
+                  ],
+                  'tag' => 'quartal'
+                },
+                {
+                  'children' => [
+                    '479.88'
+                  ],
+                  'tag' => 'jaehrlich'
+                }
+              ],
+              'tag' => 'zahlung'
+            }
+          ],
+          'tag' => 'expert'
+        },
+        {
+          'children' => [
+            {
+              'children' => [
+                'Shopware'
+              ],
+              'tag' => 'name'
+            },
+            {
+              'children' => [
+                '1'
+              ],
+              'tag' => 'hidden'
+            },
+            {
+              'children' => [
+                "<input type=\"checkbox\" name=\"eigenes SSL-Zertifikat und eine eigene IP f\x{fc}r nur 5,99 / Monat\" value=\"chk_1\">eigenes SSL-Zertifikat und eine eigene IP f\x{fc}r nur 5,99 &euro; / Monat"
+              ],
+              'tag' => 'features'
+            },
+            {
+              'children' => [
+                {
+                  'children' => [
+                    '0.00'
+                  ],
+                  'tag' => 'epreis'
+                },
+                {
+                  'children' => [
+                    '29.75'
+                  ],
+                  'tag' => 'apreis'
+                },
+                {
+                  'children' => [
+                    '29.75'
+                  ],
+                  'tag' => 'monatlich'
+                },
+                {
+                  'children' => [
+                    '89.25'
+                  ],
+                  'tag' => 'quartal'
+                },
+                {
+                  'children' => [
+                    '357.00'
+                  ],
+                  'tag' => 'jaehrlich'
+                }
+              ],
+              'tag' => 'zahlung'
+            }
+          ],
+          'tag' => 'shopware'
+        },
+        {
+          'children' => [
+            {
+              'children' => [
+                'Domain Paket'
+              ],
+              'tag' => 'name'
+            },
+            {
+              'children' => [
+                {
+                  'children' => [
+                    '0.00'
+                  ],
+                  'tag' => 'epreis'
+                },
+                {
+                  'children' => [
+                    '1.00'
+                  ],
+                  'tag' => 'apreis'
+                },
+                {
+                  'children' => [
+                    '1.00'
+                  ],
+                  'tag' => 'jaehrlich'
+                }
+              ],
+              'tag' => 'zahlung'
+            }
+          ],
+          'tag' => 'domainpaket'
+        }
+      ],
+      'tag' => 'webspace'
+    },
+    {
+      'children' => [
+        {
+          'children' => [
+            {
+              'children' => [
+                'VServer Starter'
+              ],
+              'tag' => 'name'
+            },
+            {
+              'children' => [
+                {
+                  'children' => [
+                    '14.99'
+                  ],
+                  'tag' => 'epreis'
+                },
+                {
+                  'children' => [
+                    '14.99'
+                  ],
+                  'tag' => 'monatlich'
+                },
+                {
+                  'children' => [
+                    '44.97'
+                  ],
+                  'tag' => 'quartal'
+                },
+                {
+                  'children' => [
+                    '179.88'
+                  ],
+                  'tag' => 'jaehrlich'
+                }
+              ],
+              'tag' => 'zahlung'
+            }
+          ],
+          'tag' => 'vserver_starter'
+        },
+        {
+          'children' => [
+            {
+              'children' => [
+                'VServer Medium'
+              ],
+              'tag' => 'name'
+            },
+            {
+              'children' => [
+                {
+                  'children' => [
+                    '14.99'
+                  ],
+                  'tag' => 'epreis'
+                },
+                {
+                  'children' => [
+                    '19.99'
+                  ],
+                  'tag' => 'monatlich'
+                },
+                {
+                  'children' => [
+                    '59.97'
+                  ],
+                  'tag' => 'quartal'
+                },
+                {
+                  'children' => [
+                    '239.88'
+                  ],
+                  'tag' => 'jaehrlich'
+                }
+              ],
+              'tag' => 'zahlung'
+            }
+          ],
+          'tag' => 'vserver_medium'
+        },
+        {
+          'children' => [
+            {
+              'children' => [
+                'VServer Highend'
+              ],
+              'tag' => 'name'
+            },
+            {
+              'children' => [
+                {
+                  'children' => [
+                    '14.99'
+                  ],
+                  'tag' => 'epreis'
+                },
+                {
+                  'children' => [
+                    '24.99'
+                  ],
+                  'tag' => 'monatlich'
+                },
+                {
+                  'children' => [
+                    '74.97'
+                  ],
+                  'tag' => 'quartal'
+                },
+                {
+                  'children' => [
+                    '299.88'
+                  ],
+                  'tag' => 'jaehrlich'
+                }
+              ],
+              'tag' => 'zahlung'
+            }
+          ],
+          'tag' => 'vserver_highend'
+        }
+      ],
+      'tag' => 'vserver'
+    },
+    {
+      'children' => [
+        {
+          'children' => [
+            '0.89'
+          ],
+          'tag' => 'trafficpreis'
+        },
+        {
+          'children' => [
+            '9.99'
+          ],
+          'tag' => 'opt_backup'
+        },
+        {
+          'children' => [
+            '0.99'
+          ],
+          'tag' => 'opt_backup_gb'
+        },
+        {
+          'children' => [
+            {
+              'children' => [
+                '23,-'
+              ],
+              'tag' => 'opt_raid'
+            },
+            {
+              'children' => [
+                '7,-'
+              ],
+              'tag' => 'opt_ram'
+            },
+            {
+              'children' => [
+                {
+                  'children' => [
+                    {
+                      'children' => [
+                        '87,-'
+                      ],
+                      'tag' => 'preis'
+                    },
+                    {
+                      'children' => [
+                        '199,-'
+                      ],
+                      'tag' => 'setup'
+                    }
+                  ],
+                  'tag' => 'interval'
+                },
+                {
+                  'children' => [
+                    {
+                      'children' => [
+                        '74,-'
+                      ],
+                      'tag' => 'preis'
+                    },
+                    {
+                      'children' => [
+                        '99,-'
+                      ],
+                      'tag' => 'setup'
+                    }
+                  ],
+                  'tag' => 'interval'
+                },
+                {
+                  'children' => [
+                    {
+                      'children' => [
+                        '69,-'
+                      ],
+                      'tag' => 'preis'
+                    },
+                    {
+                      'children' => [
+                        '0,-'
+                      ],
+                      'tag' => 'setup'
+                    }
+                  ],
+                  'tag' => 'interval'
+                }
+              ],
+              'tag' => 'zahlung'
+            }
+          ],
+          'tag' => 'medium'
+        },
+        {
+          'children' => [
+            {
+              'children' => [
+                '23,-'
+              ],
+              'tag' => 'opt_raid'
+            },
+            {
+              'children' => [
+                '13,-'
+              ],
+              'tag' => 'opt_ram'
+            },
+            {
+              'children' => [
+                {
+                  'children' => [
+                    {
+                      'children' => [
+                        '157,-'
+                      ],
+                      'tag' => 'preis'
+                    },
+                    {
+                      'children' => [
+                        '199,-'
+                      ],
+                      'tag' => 'setup'
+                    }
+                  ],
+                  'tag' => 'interval'
+                },
+                {
+                  'children' => [
+                    {
+                      'children' => [
+                        '136,-'
+                      ],
+                      'tag' => 'preis'
+                    },
+                    {
+                      'children' => [
+                        '99,-'
+                      ],
+                      'tag' => 'setup'
+                    }
+                  ],
+                  'tag' => 'interval'
+                },
+                {
+                  'children' => [
+                    {
+                      'children' => [
+                        '129,-'
+                      ],
+                      'tag' => 'preis'
+                    },
+                    {
+                      'children' => [
+                        '0,-'
+                      ],
+                      'tag' => 'setup'
+                    }
+                  ],
+                  'tag' => 'interval'
+                }
+              ],
+              'tag' => 'zahlung'
+            }
+          ],
+          'tag' => 'highend'
+        },
+        {
+          'children' => [
+            {
+              'children' => [
+                '23,-'
+              ],
+              'tag' => 'opt_raid'
+            },
+            {
+              'children' => [
+                '19,-'
+              ],
+              'tag' => 'opt_ram'
+            },
+            {
+              'children' => [
+                {
+                  'children' => [
+                    {
+                      'children' => [
+                        '181,-'
+                      ],
+                      'tag' => 'preis'
+                    },
+                    {
+                      'children' => [
+                        '199,-'
+                      ],
+                      'tag' => 'setup'
+                    }
+                  ],
+                  'tag' => 'interval'
+                },
+                {
+                  'children' => [
+                    {
+                      'children' => [
+                        '157,-'
+                      ],
+                      'tag' => 'preis'
+                    },
+                    {
+                      'children' => [
+                        '99,-'
+                      ],
+                      'tag' => 'setup'
+                    }
+                  ],
+                  'tag' => 'interval'
+                },
+                {
+                  'children' => [
+                    {
+                      'children' => [
+                        '149,-'
+                      ],
+                      'tag' => 'preis'
+                    },
+                    {
+                      'children' => [
+                        '0,-'
+                      ],
+                      'tag' => 'setup'
+                    }
+                  ],
+                  'tag' => 'interval'
+                }
+              ],
+              'tag' => 'zahlung'
+            }
+          ],
+          'tag' => 'business'
+        },
+        {
+          'children' => [
+            {
+              'children' => [
+                {
+                  'children' => [
+                    {
+                      'children' => [
+                        '393,-'
+                      ],
+                      'tag' => 'preis'
+                    },
+                    {
+                      'children' => [
+                        '399,-'
+                      ],
+                      'tag' => 'setup'
+                    }
+                  ],
+                  'tag' => 'interval'
+                },
+                {
+                  'children' => [
+                    {
+                      'children' => [
+                        '308,-'
+                      ],
+                      'tag' => 'preis'
+                    },
+                    {
+                      'children' => [
+                        '199,-'
+                      ],
+                      'tag' => 'setup'
+                    }
+                  ],
+                  'tag' => 'interval'
+                },
+                {
+                  'children' => [
+                    {
+                      'children' => [
+                        '279,-'
+                      ],
+                      'tag' => 'preis'
+                    },
+                    {
+                      'children' => [
+                        '0,-'
+                      ],
+                      'tag' => 'setup'
+                    }
+                  ],
+                  'tag' => 'interval'
+                }
+              ],
+              'tag' => 'zahlung'
+            }
+          ],
+          'tag' => 'expert'
+        },
+        {
+          'children' => [
+            {
+              'children' => [
+                {
+                  'children' => [
+                    {
+                      'children' => [
+                        '608,-'
+                      ],
+                      'tag' => 'preis'
+                    },
+                    {
+                      'children' => [
+                        '399,-'
+                      ],
+                      'tag' => 'setup'
+                    }
+                  ],
+                  'tag' => 'interval'
+                },
+                {
+                  'children' => [
+                    {
+                      'children' => [
+                        '452,-'
+                      ],
+                      'tag' => 'preis'
+                    },
+                    {
+                      'children' => [
+                        '199,-'
+                      ],
+                      'tag' => 'setup'
+                    }
+                  ],
+                  'tag' => 'interval'
+                },
+                {
+                  'children' => [
+                    {
+                      'children' => [
+                        '399,-'
+                      ],
+                      'tag' => 'preis'
+                    },
+                    {
+                      'children' => [
+                        '0,-'
+                      ],
+                      'tag' => 'setup'
+                    }
+                  ],
+                  'tag' => 'interval'
+                }
+              ],
+              'tag' => 'zahlung'
+            }
+          ],
+          'tag' => 'enterprise'
+        }
+      ],
+      'tag' => 'root-server'
+    },
+    {
+      'children' => [
+        {
+          'children' => [
+            '0.89'
+          ],
+          'tag' => 'trafficpreis'
+        },
+        {
+          'children' => [
+            'inkl.'
+          ],
+          'tag' => 'opt_servercon'
+        },
+        {
+          'children' => [
+            '29,-'
+          ],
+          'tag' => 'opt_backup'
+        },
+        {
+          'children' => [
+            {
+              'children' => [
+                '-'
+              ],
+              'tag' => 'opt_raid'
+            },
+            {
+              'children' => [
+                '14,90'
+              ],
+              'tag' => 'opt_ram'
+            },
+            {
+              'children' => [
+                {
+                  'children' => [
+                    {
+                      'children' => [
+                        '98,-'
+                      ],
+                      'tag' => 'preis'
+                    },
+                    {
+                      'children' => [
+                        '79,-'
+                      ],
+                      'tag' => 'setup'
+                    }
+                  ],
+                  'tag' => 'interval'
+                },
+                {
+                  'children' => [
+                    {
+                      'children' => [
+                        '88,-'
+                      ],
+                      'tag' => 'preis'
+                    },
+                    {
+                      'children' => [
+                        '49,-'
+                      ],
+                      'tag' => 'setup'
+                    }
+                  ],
+                  'tag' => 'interval'
+                },
+                {
+                  'children' => [
+                    {
+                      'children' => [
+                        '78,-'
+                      ],
+                      'tag' => 'preis'
+                    },
+                    {
+                      'children' => [
+                        '0,-'
+                      ],
+                      'tag' => 'setup'
+                    }
+                  ],
+                  'tag' => 'interval'
+                }
+              ],
+              'tag' => 'zahlung'
+            }
+          ],
+          'tag' => 'starter'
+        },
+        {
+          'children' => [
+            {
+              'children' => [
+                {
+                  'children' => [
+                    {
+                      'children' => [
+                        '116,-'
+                      ],
+                      'tag' => 'preis'
+                    },
+                    {
+                      'children' => [
+                        '199,-'
+                      ],
+                      'tag' => 'setup'
+                    }
+                  ],
+                  'tag' => 'interval'
+                },
+                {
+                  'children' => [
+                    {
+                      'children' => [
+                        '103,-'
+                      ],
+                      'tag' => 'preis'
+                    },
+                    {
+                      'children' => [
+                        '99,-'
+                      ],
+                      'tag' => 'setup'
+                    }
+                  ],
+                  'tag' => 'interval'
+                },
+                {
+                  'children' => [
+                    {
+                      'children' => [
+                        '98,-'
+                      ],
+                      'tag' => 'preis'
+                    },
+                    {
+                      'children' => [
+                        '0,-'
+                      ],
+                      'tag' => 'setup'
+                    }
+                  ],
+                  'tag' => 'interval'
+                }
+              ],
+              'tag' => 'zahlung'
+            }
+          ],
+          'tag' => 'medium'
+        },
+        {
+          'children' => [
+            {
+              'children' => [
+                {
+                  'children' => [
+                    {
+                      'children' => [
+                        '186,-'
+                      ],
+                      'tag' => 'preis'
+                    },
+                    {
+                      'children' => [
+                        '199,-'
+                      ],
+                      'tag' => 'setup'
+                    }
+                  ],
+                  'tag' => 'interval'
+                },
+                {
+                  'children' => [
+                    {
+                      'children' => [
+                        '165,-'
+                      ],
+                      'tag' => 'preis'
+                    },
+                    {
+                      'children' => [
+                        '99,-'
+                      ],
+                      'tag' => 'setup'
+                    }
+                  ],
+                  'tag' => 'interval'
+                },
+                {
+                  'children' => [
+                    {
+                      'children' => [
+                        '158,-'
+                      ],
+                      'tag' => 'preis'
+                    },
+                    {
+                      'children' => [
+                        '0,-'
+                      ],
+                      'tag' => 'setup'
+                    }
+                  ],
+                  'tag' => 'interval'
+                }
+              ],
+              'tag' => 'zahlung'
+            }
+          ],
+          'tag' => 'highend'
+        },
+        {
+          'children' => [
+            {
+              'children' => [
+                {
+                  'children' => [
+                    {
+                      'children' => [
+                        '210,-'
+                      ],
+                      'tag' => 'preis'
+                    },
+                    {
+                      'children' => [
+                        '199,-'
+                      ],
+                      'tag' => 'setup'
+                    }
+                  ],
+                  'tag' => 'interval'
+                },
+                {
+                  'children' => [
+                    {
+                      'children' => [
+                        '186,-'
+                      ],
+                      'tag' => 'preis'
+                    },
+                    {
+                      'children' => [
+                        '99,-'
+                      ],
+                      'tag' => 'setup'
+                    }
+                  ],
+                  'tag' => 'interval'
+                },
+                {
+                  'children' => [
+                    {
+                      'children' => [
+                        '178,-'
+                      ],
+                      'tag' => 'preis'
+                    },
+                    {
+                      'children' => [
+                        '0,-'
+                      ],
+                      'tag' => 'setup'
+                    }
+                  ],
+                  'tag' => 'interval'
+                }
+              ],
+              'tag' => 'zahlung'
+            }
+          ],
+          'tag' => 'business'
+        },
+        {
+          'children' => [
+            {
+              'children' => [
+                '0,-'
+              ],
+              'tag' => 'sehr_niedrig'
+            },
+            {
+              'children' => [
+                '28,-'
+              ],
+              'tag' => 'niedrig'
+            },
+            {
+              'children' => [
+                '268,-'
+              ],
+              'tag' => 'mittel'
+            },
+            {
+              'children' => [
+                '426,-'
+              ],
+              'tag' => 'hoch'
+            },
+            {
+              'children' => [
+                '925,-'
+              ],
+              'tag' => 'sehr_hoch'
+            },
+            {
+              'children' => [
+                {
+                  'children' => [
+                    {
+                      'children' => [
+                        '422,-'
+                      ],
+                      'tag' => 'preis'
+                    },
+                    {
+                      'children' => [
+                        '399,-'
+                      ],
+                      'tag' => 'setup'
+                    }
+                  ],
+                  'tag' => 'interval'
+                },
+                {
+                  'children' => [
+                    {
+                      'children' => [
+                        '337,-'
+                      ],
+                      'tag' => 'preis'
+                    },
+                    {
+                      'children' => [
+                        '199,-'
+                      ],
+                      'tag' => 'setup'
+                    }
+                  ],
+                  'tag' => 'interval'
+                },
+                {
+                  'children' => [
+                    {
+                      'children' => [
+                        '308,-'
+                      ],
+                      'tag' => 'preis'
+                    },
+                    {
+                      'children' => [
+                        '0,-'
+                      ],
+                      'tag' => 'setup'
+                    }
+                  ],
+                  'tag' => 'interval'
+                }
+              ],
+              'tag' => 'zahlung'
+            }
+          ],
+          'tag' => 'expert'
+        },
+        {
+          'children' => [
+            {
+              'children' => [
+                '0,-'
+              ],
+              'tag' => 'sehr_niedrig'
+            },
+            {
+              'children' => [
+                '28,-'
+              ],
+              'tag' => 'niedrig'
+            },
+            {
+              'children' => [
+                '279,-'
+              ],
+              'tag' => 'mittel'
+            },
+            {
+              'children' => [
+                '437,-'
+              ],
+              'tag' => 'hoch'
+            },
+            {
+              'children' => [
+                '936,-'
+              ],
+              'tag' => 'sehr_hoch'
+            },
+            {
+              'children' => [
+                {
+                  'children' => [
+                    {
+                      'children' => [
+                        '637,-'
+                      ],
+                      'tag' => 'preis'
+                    },
+                    {
+                      'children' => [
+                        '399,-'
+                      ],
+                      'tag' => 'setup'
+                    }
+                  ],
+                  'tag' => 'interval'
+                },
+                {
+                  'children' => [
+                    {
+                      'children' => [
+                        '481,-'
+                      ],
+                      'tag' => 'preis'
+                    },
+                    {
+                      'children' => [
+                        '199,-'
+                      ],
+                      'tag' => 'setup'
+                    }
+                  ],
+                  'tag' => 'interval'
+                },
+                {
+                  'children' => [
+                    {
+                      'children' => [
+                        '428,-'
+                      ],
+                      'tag' => 'preis'
+                    },
+                    {
+                      'children' => [
+                        '0,-'
+                      ],
+                      'tag' => 'setup'
+                    }
+                  ],
+                  'tag' => 'interval'
+                }
+              ],
+              'tag' => 'zahlung'
+            }
+          ],
+          'tag' => 'enterprise'
+        }
+      ],
+      'tag' => 'managed-server'
+    },
+    {
+      'children' => [
+        {
+          'children' => [
+            {
+              'children' => [
+                '0.39'
+              ],
+              'tag' => 'trafficpreis'
+            },
+            {
+              'children' => [
+                '29,-'
+              ],
+              'tag' => 'preis'
+            },
+            {
+              'children' => [
+                '49,-'
+              ],
+              'tag' => 'epreis'
+            },
+            {
+              'children' => [
+                '5,-'
+              ],
+              'tag' => 'opt_strom'
+            },
+            {
+              'children' => [
+                '5,-'
+              ],
+              'tag' => 'opt_lan'
+            },
+            {
+              'children' => [
+                '19,-'
+              ],
+              'tag' => 'opt_ripe'
+            },
+            {
+              'children' => [
+                '56,-'
+              ],
+              'tag' => 'opt_2he'
+            },
+            {
+              'children' => [
+                '109,-'
+              ],
+              'tag' => 'opt_4he'
+            }
+          ],
+          'tag' => 'server'
+        },
+        {
+          'children' => [
+            {
+              'children' => [
+                '0.39'
+              ],
+              'tag' => 'trafficpreis'
+            },
+            {
+              'children' => [
+                '899,-'
+              ],
+              'tag' => 'preis'
+            },
+            {
+              'children' => [
+                '899,-'
+              ],
+              'tag' => 'epreis'
+            }
+          ],
+          'tag' => 'rack'
+        }
+      ],
+      'tag' => 'housing'
+    },
+    {
+      'children' => [
+        {
+          'children' => [
+            {
+              'children' => [
+                '49,-'
+              ],
+              'tag' => 'trafficmbitpreis'
+            },
+            {
+              'children' => [
+                '0.69'
+              ],
+              'tag' => 'trafficpreis'
+            },
+            {
+              'children' => [
+                '349,-'
+              ],
+              'tag' => 'preis'
+            },
+            {
+              'children' => [
+                '299,-'
+              ],
+              'tag' => 'epreis'
+            }
+          ],
+          'tag' => 'fullrack'
+        },
+        {
+          'children' => [
+            {
+              'children' => [
+                '59,-'
+              ],
+              'tag' => 'trafficmbitpreis'
+            },
+            {
+              'children' => [
+                '0.79'
+              ],
+              'tag' => 'trafficpreis'
+            },
+            {
+              'children' => [
+                '199,-'
+              ],
+              'tag' => 'preis'
+            },
+            {
+              'children' => [
+                '199,-'
+              ],
+              'tag' => 'epreis'
+            }
+          ],
+          'tag' => 'halfrack'
+        }
+      ],
+      'tag' => 'rackhousing'
+    },
+    {
+      'children' => [
+        '19'
+      ],
+      'tag' => 'mwst'
+    }
+  ],
+  'tag' => 'preise'
+};
