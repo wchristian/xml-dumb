@@ -31,10 +31,11 @@ sub run {
     }
 
     {
+        my $is_in_domain_holder = sub { $_[0]->parent and $_[0]->parent->tag eq 'domains' };
         ok my $xd = XML::Dumb->new(
             root_wrapper          => "preise",
             children_as_keys_when => [ sub { $_[0]->tag eq 'preise' or $_[0]->tag eq 'domains' } ],
-            only_child_as_key     => [ sub { return 'preis' if $_[0]->parent and $_[0]->parent->tag eq 'domains' } ],
+            only_child_as_key     => { preis => $is_in_domain_holder },
         );
         ok $xd->parsefile( "corpus/preise.xml" );
 

@@ -12,7 +12,7 @@ has children_key          => ( is => 'ro', default => sub { 'children' } );
 has tag_key               => ( is => 'ro', default => sub { 'tag' } );
 has atts_key              => ( is => 'ro', default => sub { 'atts' } );
 has children_as_keys_when => ( is => 'ro', default => sub { [] } );
-has only_child_as_key     => ( is => 'ro', default => sub { [] } );
+has only_child_as_key     => ( is => 'ro', default => sub { {} } );
 
 sub _build_twig { XML::Twig->new }
 
@@ -82,7 +82,8 @@ sub handle_children {
 sub try_child_as_specified_key {
     my ( $self, $data, $opt, $elt ) = @_;
 
-    my ( $child_key ) = map { $_->( $elt ) } @{ $self->only_child_as_key };
+    my $associations = $self->only_child_as_key;
+    my ( $child_key ) = grep { $associations->{$_}->( $elt ) } keys %{$associations};
     return if !$child_key;
 
     die "cannot have more than one child" if $elt->children > 1;
