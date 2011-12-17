@@ -89,7 +89,7 @@ sub try_child_as_specified_key {
     my ( $child_key ) = grep { $associations->{$_}->( $elt ) } keys %{$associations};
     return if !$child_key;
 
-    die "cannot have more than one child" if $elt->children > 1;
+    die "must have exactly one child" if $elt->children != 1;
     $data->{$child_key} = $self->elt_to_perl( $elt->children );
     return 1;
 }
