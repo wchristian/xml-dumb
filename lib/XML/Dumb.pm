@@ -72,42 +72,40 @@ sub handle_tag {
 sub handle_children {
     my ( $self, $data, $opt, $elt ) = @_;
 
-    my @children = $elt->children;
+    return if $self->try_child_as_specified_attr( $data, $opt, $elt );
+    return if $self->try_children_as_attrs_by_tag( $data, $opt, $elt );
 
-    return if $self->try_child_as_specified_attr( $data, $opt, $elt, \@children );
-    return if $self->try_children_as_attrs_by_tag( $data, $opt, $elt, \@children );
-
-    $self->store_children_in_attr( $data, $opt, $elt, \@children );
+    $self->store_children_in_attr( $data, $opt, $elt );
     return;
 }
 
 sub try_child_as_specified_attr {
-    my ( $self, $data, $opt, $elt, $children ) = @_;
+    my ( $self, $data, $opt, $elt ) = @_;
 
     my ( $child_attr ) = map { $_->( $elt ) } @{ $self->only_child_as_attr };
     return if !$child_attr;
 
-    die "cannot have more than one child" if @{$children} > 1;
-    $data->{$child_attr} = $self->elt_to_perl( $children->[0] );
+    die "cannot have more than one child" if $elt->children > 1;
+    $data->{$child_attr} = $self->elt_to_perl( $elt->children );
     return 1;
 }
 
 sub try_children_as_attrs_by_tag {
-    my ( $self, $data, $opt, $elt, $children ) = @_;
+    my ( $self, $data, $opt, $elt ) = @_;
 
     my $children_as_attr = grep { $_->( $elt ) } @{ $self->children_as_attr_when };
     return if !$children_as_attr;
 
     die "tag with children as atts cannot have additional atts" if $elt->has_atts;
-    $data->{ $_->tag } = $self->elt_to_perl( $_ ) for @{$children};
+    $data->{ $_->tag } = $self->elt_to_perl( $_ ) for $elt->children;
     return 1;
 }
 
 sub store_children_in_attr {
-    my ( $self, $data, $opt, $elt, $children ) = @_;
+    my ( $self, $data, $opt, $elt ) = @_;
 
     $data->{ $self->children_key } = [];
-    push @{ $data->{ $self->children_key } }, $self->elt_to_perl( $_, { no_tag_attr => 1 } ) for @{$children};
+    push @{ $data->{ $self->children_key } }, $self->elt_to_perl( $_, { no_tag_attr => 1 } ) for $elt->children;
 
     return;
 }
