@@ -2,6 +2,17 @@ use strictures;
 
 package XML::Dumb;
 
+=head1 DESCRIPTION
+
+    Wat is en Dampfmaschin?
+
+    Da stelle mer uns janz dumm. Und da sage mer so:
+    En Dampfmaschin, dat is ene jroße, schwarze Raum.
+
+        -- Lehrer Bömmel ( Feuerzangenbowle )
+
+=cut
+
 use Carp 'croak';
 use XML::Twig;
 use Moo;
