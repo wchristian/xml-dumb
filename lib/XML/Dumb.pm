@@ -6,14 +6,20 @@ use Carp 'croak';
 use XML::Twig;
 use Moo;
 
-has $_ => ( is => 'ro', lazy => 1, builder => "_build_$_" ) for qw( twig );
-has $_ => ( is => 'ro' ) for qw(
-    root_wrapper  children_as_keys_by_tag  children_as_keys_by_att
-    atts_as_keys  only_child_as_key        element_as_only_child
-);
-has children_key => ( is => 'ro', default => sub { 'children' } );
-has tag_key      => ( is => 'ro', default => sub { 'tag' } );
-has atts_key     => ( is => 'ro', default => sub { 'atts' } );
+setup_class();
+
+sub setup_class {
+    has $_ => ( is => 'ro', lazy => 1, builder => "_build_$_" ) for qw( twig );
+    has $_ => ( is => 'ro' ) for qw(
+      root_wrapper  children_as_keys_by_tag  children_as_keys_by_att
+      atts_as_keys  only_child_as_key        element_as_only_child
+    );
+    has children_key => is => 'ro', default => sub { 'children' };
+    has tag_key      => is => 'ro', default => sub { 'tag' };
+    has atts_key     => is => 'ro', default => sub { 'atts' };
+
+    return;
+}
 
 sub _build_twig { XML::Twig->new }
 
