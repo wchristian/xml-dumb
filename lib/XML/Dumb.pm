@@ -6,9 +6,7 @@ use Carp 'croak';
 use XML::Twig;
 use Moo;
 
-setup_class();
-
-sub setup_class {
+sub {
     has $_ => ( is => 'ro', lazy => 1, builder => "_build_$_" ) for qw( twig );
     has $_ => ( is => 'ro' ) for qw(
       root_wrapper  children_as_keys_by_tag  children_as_keys_by_att
@@ -17,9 +15,8 @@ sub setup_class {
     has children_key => is => 'ro', default => sub { 'children' };
     has tag_key      => is => 'ro', default => sub { 'tag' };
     has atts_key     => is => 'ro', default => sub { 'atts' };
-
-    return;
-}
+  }
+  ->();
 
 sub _build_twig { XML::Twig->new }
 
