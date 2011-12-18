@@ -43,32 +43,39 @@ sub run {
         my $repeat_group = "managed-server|rackhousing|root-server|vserver|webspace";
 
         ok my $xd = XML::Dumb->new(
-            root_wrapper            => "preise",
-            children_as_keys_by_tag => [
-                sub { $_[0]->tag eq "preise" },
-                sub { $cpath->( $_[0] ) =~ m@^/preise/(domains|$repeat_group)$@ },
-                sub { $cpath->( $_[0] ) =~ m@^/preise/(housing|$repeat_group)/\w+$@ },
-                sub { $cpath->( $_[0] ) =~ m@^/preise/(vserver|webspace)/\w+/zahlung$@ },
-                sub { $cpath->( $_[0] ) =~ m@^/preise/[\w+\-]+/\w+/zahlung/interval\[\d\]$@ },
-            ],
-            children_as_keys_by_att => {
-                length => sub { $cpath->( $_[0] ) =~ m@^/preise/(root|managed)-server/\w+/zahlung$@ }
-            },
-            only_child_as_key     => { preis => $is_in_domains },
-            atts_as_keys          => [$is_in_domains],
-            element_as_only_child => [
-                sub {
-                    my ( $elt ) = @_;
-                    return if !$_[0]->first_child or $_[0]->first_child->is_elt;
+            root_wrapper => "preise",
 
-                    my $xpath = $cpath->( $elt );
-                    return 1 if $xpath =~ m@^/preise/(managed-server|root-server|webspace)/\w+$@;
-                    return 1 if $xpath =~ m@^/preise/(housing|$repeat_group)/\w+/\w+$@;
-                    return 1 if $xpath =~ m@^/preise/(vserver|webspace)/\w+/zahlung/\w+$@;
-                    return 1 if $xpath =~ m@^/preise/(managed|root)-server/\w+/zahlung/interval\[\d\]/\w+$@;
-                    return;
-                },
-            ],
+            children_as_keys_by_tag => sub {
+                my ( $elt ) = @_;
+                return 1 if $elt->tag eq "preise";
+
+                my $xpath = $cpath->( $elt );
+                return 1 if $xpath =~ m@^/preise/(domains|$repeat_group)$@;
+                return 1 if $xpath =~ m@^/preise/(housing|$repeat_group)/\w+$@;
+                return 1 if $xpath =~ m@^/preise/(vserver|webspace)/\w+/zahlung$@;
+                return 1 if $xpath =~ m@^/preise/[\w+\-]+/\w+/zahlung/interval\[\d\]$@;
+
+                return;
+            },
+
+            children_as_keys_by_att =>
+              sub { $cpath->( $_[0] ) =~ m@^/preise/(root|managed)-server/\w+/zahlung$@ ? 'length' : undef },
+
+            only_child_as_key => sub { $is_in_domains->( $_[0] ) ? 'preis' : undef },
+
+            atts_as_keys => $is_in_domains,
+
+            element_as_only_child => sub {
+                my ( $elt ) = @_;
+                return if !$_[0]->first_child or $_[0]->first_child->is_elt;
+
+                my $xpath = $cpath->( $elt );
+                return 1 if $xpath =~ m@^/preise/(managed-server|root-server|webspace)/\w+$@;
+                return 1 if $xpath =~ m@^/preise/(housing|$repeat_group)/\w+/\w+$@;
+                return 1 if $xpath =~ m@^/preise/(vserver|webspace)/\w+/zahlung/\w+$@;
+                return 1 if $xpath =~ m@^/preise/(managed|root)-server/\w+/zahlung/interval\[\d\]/\w+$@;
+                return;
+            },
         );
         ok $xd->parsefile( "corpus/preise.xml" );
 
@@ -78,7 +85,7 @@ sub run {
     }
 
     {
-        ok my $xd = XML::Dumb->new( children_as_keys_by_tag => [ sub { $_[0]->tag eq 'preise' } ] );
+        ok my $xd = XML::Dumb->new( children_as_keys_by_tag => sub { $_[0]->tag eq 'preise' } );
         ok $xd->parse( "<preise meep='1' />" );
         like( exception { $xd->to_perl }, qr/tag with children as keys cannot have additional atts/ );
     }

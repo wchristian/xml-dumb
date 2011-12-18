@@ -7,15 +7,13 @@ use XML::Twig;
 use Moo;
 
 has $_ => ( is => 'ro', lazy => 1, builder => "_build_$_" ) for qw( twig );
-has $_ => ( is => 'ro' ) for qw( root_wrapper );
-has children_key            => ( is => 'ro', default => sub { 'children' } );
-has tag_key                 => ( is => 'ro', default => sub { 'tag' } );
-has atts_key                => ( is => 'ro', default => sub { 'atts' } );
-has children_as_keys_by_tag => ( is => 'ro', default => sub { [] } );
-has children_as_keys_by_att => ( is => 'ro', default => sub { {} } );
-has atts_as_keys            => ( is => 'ro', default => sub { [] } );
-has only_child_as_key       => ( is => 'ro', default => sub { {} } );
-has element_as_only_child   => ( is => 'ro', default => sub { [] } );
+has $_ => ( is => 'ro' ) for qw(
+    root_wrapper  children_as_keys_by_tag  children_as_keys_by_att
+    atts_as_keys  only_child_as_key        element_as_only_child
+);
+has children_key => ( is => 'ro', default => sub { 'children' } );
+has tag_key      => ( is => 'ro', default => sub { 'tag' } );
+has atts_key     => ( is => 'ro', default => sub { 'atts' } );
 
 sub _build_twig { XML::Twig->new }
 
@@ -62,7 +60,8 @@ sub elt_to_perl {
 sub check_element_as_only_child {
     my ( $self, $elt ) = @_;
 
-    return if !grep { $_->( $elt ) } @{ $self->element_as_only_child };
+    return if !$self->element_as_only_child;
+    return if !$self->element_as_only_child->( $elt );
 
     die "element does not have exactly one child" if $elt->children != 1;
     return 1;
@@ -97,8 +96,8 @@ sub handle_children {
 sub try_child_as_specified_key {
     my ( $self, $data, $opt, $elt ) = @_;
 
-    my $associations = $self->only_child_as_key;
-    my ( $child_key ) = grep { $associations->{$_}->( $elt ) } keys %{$associations};
+    return if !$self->only_child_as_key;
+    my $child_key = $self->only_child_as_key->( $elt );
     return if !$child_key;
 
     die "must have exactly one child" if $elt->children != 1;
@@ -109,7 +108,8 @@ sub try_child_as_specified_key {
 sub try_children_as_keys_by_tag {
     my ( $self, $data, $opt, $elt ) = @_;
 
-    return if !grep { $_->( $elt ) } @{ $self->children_as_keys_by_tag };
+    return if !$self->children_as_keys_by_tag;
+    return if !$self->children_as_keys_by_tag->( $elt );
 
     die "tag with children as keys cannot have additional atts" if $elt->has_atts;
     for my $child ( $elt->children ) {
@@ -126,8 +126,8 @@ sub try_children_as_keys_by_tag {
 sub try_children_as_keys_by_att {
     my ( $self, $data, $opt, $elt ) = @_;
 
-    my $associations = $self->children_as_keys_by_att;
-    my ( $child_att ) = grep { $associations->{$_}->( $elt ) } keys %{$associations};
+    return if !$self->children_as_keys_by_att;
+    my $child_att = $self->children_as_keys_by_att->( $elt );
     return if !$child_att;
 
     die "tag with children as keys cannot have additional atts" if $elt->has_atts;
@@ -168,7 +168,8 @@ sub handle_atts {
 sub try_atts_as_keys {
     my ( $self, $data, $opt, $elt ) = @_;
 
-    return if !grep { $_->( $elt ) } @{ $self->atts_as_keys };
+    return if !$self->atts_as_keys;
+    return if !$self->atts_as_keys->( $elt );
 
     my $atts = $elt->atts;
 
